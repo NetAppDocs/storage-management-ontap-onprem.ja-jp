@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-manage-ontap-direct.html 
 keywords: direct discovery, direct, system manager, local, local discovery, 
-summary: NetAppコンソール エージェントを使用せずにオンプレミスのONTAPクラスタを直接検出した場合は、 NetAppコンソールでシステムを開き、 ONTAP System Manager を使用してクラスタを管理できます。 
+summary: NetApp Consoleエージェントを使用せずにオンプレミスのONTAPクラスタを直接検出した場合は、 NetApp Consoleでシステムを開き、 ONTAP System Manager を使用してクラスタを管理できます。 
 ---
-= NetAppコンソールで直接検出されたクラスタを管理する
+= NetApp Consoleで直接検出されたクラスタを管理する
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -20,7 +20,7 @@ summary: NetAppコンソール エージェントを使用せずにオンプレ�
 ストレージ管理者またはシステムヘルススペシャリスト。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["コンソール アクセス ロールについて学習します。"^]
 
 .開始する前に
-コンソールにアクセスするために使用しているコンピューターには、プライベート ネットワーク内の他のリソースへの接続を提供するのと同様に、オンプレミスのONTAPクラスターへのネットワーク接続が必要です。
+コンソールにアクセスするために使用するコンピューターには、プライベート ネットワーク内の他のリソースへの接続を提供するのと同様に、オンプレミスのONTAPクラスターへのネットワーク接続が必要です。
 
 .制限事項
 一部の System Manager 機能はコンソールからはサポートされません。

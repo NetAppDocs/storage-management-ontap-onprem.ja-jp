@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concept-onprem-ontap.html 
 keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet, subscriptios, licenses, bluexp 
-summary: AFF/ FASコントローラおよびONTAP Select上で実行されているONTAPクラスターをNetAppコンソールから管理できます。オンプレミスのONTAPシステムをNetAppコンソールに追加すると、すべてのストレージとデータ資産を単一のインターフェースから管理できるようになります。 
+summary: AFF/ FASコントローラおよびONTAP Select上で実行されているONTAPクラスターをNetApp Consoleから管理できます。オンプレミスのONTAPシステムをNetApp Consoleに追加すると、すべてのストレージとデータ資産を単一のインターフェースから管理できるようになります。 
 ---
-= NetAppコンソールでのオンプレミスONTAPクラスタ管理について学ぶ
+= NetApp ConsoleでのオンプレミスONTAPクラスタ管理について学ぶ
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,17 +14,17 @@ summary: AFF/ FASコントローラおよびONTAP Select上で実行されてい
 
 
 [role="lead"]
-AFF/ FASコントローラおよびONTAP Select上で実行されているONTAPクラスターをNetAppコンソールから管理できます。オンプレミスのONTAPシステムをコンソールに追加すると、すべてのストレージとデータ資産を一元管理できるようになります。
+AFF/ FASコントローラおよびONTAP Select上で実行されているONTAPクラスターをNetApp Consoleから管理できます。オンプレミスのONTAPシステムをコンソールに追加すると、すべてのストレージとデータ資産を一元管理できるようになります。
 
 
 
-== NetAppコンソール
+== NetApp Console
 
-NetAppコンソールは、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとデータ サービスの集中管理を提供します。NetAppデータ サービスにアクセスして使用するには、コンソールが必要です。管理インターフェースとして、1 つのインターフェースから多数のストレージ リソースを管理できます。コンソール管理者は、企業内のすべてのシステムのストレージとサービスへのアクセスを制御できます。
+NetApp Consoleは、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとデータ サービスの集中管理を提供します。NetAppデータ サービスにアクセスして使用するには、コンソールが必要です。管理インターフェースとして、1 つのインターフェースから多数のストレージ リソースを管理できます。コンソール管理者は、企業内のすべてのシステムのストレージとサービスへのアクセスを制御できます。
 
-NetAppコンソールの使用を開始するためにライセンスやサブスクリプションは必要ありません。ストレージ システムまたはNetAppデータ サービスへの接続を確保するためにクラウドにコンソール エージェントを展開する必要がある場合にのみ料金が発生します。ただし、コンソールからアクセスできる一部のNetAppデータ サービスは、ライセンスまたはサブスクリプションベースです。
+NetApp Consoleの使用を開始するためにライセンスやサブスクリプションは必要ありません。ストレージ システムまたはNetAppデータ サービスへの接続を確保するためにクラウドにコンソール エージェントを展開する必要がある場合にのみ料金が発生します。ただし、コンソールからアクセスできる一部のNetAppデータ サービスは、ライセンスまたはサブスクリプションベースです。
 
-詳細はこちら https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html["NetAppコンソール"]。
+詳細はこちら https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html["NetApp Console"]。
 
 
 
@@ -47,5 +47,5 @@ NetAppコンソールの使用を開始するためにライセンスやサブ�
 +
 コンソール エージェントは、クラウドまたはオンプレミスにインストールできます。クラウドにコンソール エージェントをインストールすると、コストが発生します。
 
-* NetApp Backup and Recovery、 NetApp Ransomware Resilience などのNetAppデータ サービスを使用しているかどうか。
+* NetApp Backup and Recovery、 NetApp Ransomware ResilienceなどのNetAppデータ サービスを使用するかどうか。
 

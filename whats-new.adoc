@@ -4,7 +4,7 @@ permalink: whats-new.html
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, on-prem' 
 summary: BlueXPのオンプレミスONTAPクラスタ管理の新機能について説明します。 
 ---
-= NetAppコンソールのオンプレミスONTAPクラスタの新機能
+= NetApp ConsoleのオンプレミスONTAPクラスタの新機能
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: BlueXPのオンプレミスONTAPクラスタ管理の新機能につい
 
 
 [role="lead"]
-NetAppコンソールでのオンプレミスのONTAPクラスタ管理の新機能について説明します。
+NetApp ConsoleでのオンプレミスのONTAPクラスタ管理の新機能について説明します。
 
 
 
@@ -22,11 +22,11 @@ NetAppコンソールでのオンプレミスのONTAPクラスタ管理の新機
 
 
 
-=== BlueXPはNetAppコンソールになりました
+=== BlueXPはNetApp Consoleになりました
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
 
-変更内容の詳細については、link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+変更内容の詳細については、link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp Consoleのリリースノート"] 。
 
 
 
@@ -82,7 +82,7 @@ BlueXP をプライベート モードで使用する場合、 ASA r2 システ�
 
 
 
-== 30 2023年7月
+== 2023年7月30日
 
 
 
@@ -96,13 +96,13 @@ BlueXP をプライベート モードで使用する場合、 ASA r2 システ�
 
 
 
-== 2 2023年7月
+== 2023年7月2日
 
 
 
 === 私の不動産からのクラスター検出
 
-BlueXPログインの電子メール アドレスに関連付けられているONTAPクラスターに基づいてBlueXP が事前に検出したクラスターを選択することで、*キャンバス > マイ エステート* からオンプレミスのONTAPクラスターを検出できるようになりました。
+BlueXPログインのONTAPメール アドレスに関連付けられている ONTAP クラスターに基づいてBlueXP が事前に検出したクラスターを選択することで、*キャンバス > マイ エステート* からオンプレミスのONTAPクラスターを検出できるようになりました。
 
 https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-discovering-ontap.html#add-a-pre-discovered-cluster["マイエステートページからクラスターを発見する方法を学びます"] 。
 
@@ -137,7 +137,7 @@ BlueXPコンソールからオンプレミスのONTAPクラスターを検出す
 
 image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/media/screenshot-discover-on-prem-ontap.png["作業環境を作成するときに利用できるオンプレミスのONTAPの検出オプションを示すスクリーンショット"]
 
-以前は、直接検出とコネクタを使用した検出のフローが別々でした。これら 2 つのオプションはどちらも引き続き利用可能ですが、単一のフローに統合されています。
+以前は、直接検出とコネクタを使用した検出のフローが別々にありました。これら 2 つのオプションはどちらも引き続き利用可能ですが、 1 つのフローに統合されています。
 
 検出プロセスを開始すると、 BlueXP は次のようにクラスターを検出します。
 
@@ -211,7 +211,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onpr
 
 === 新しい詳細ビュー
 
-ONTAPオンプレミス クラスタの高度な管理を実行する必要がある場合は、 ONTAPシステムに付属の管理インターフェイスであるONTAP System Manager を使用して実行できます。高度な管理のために Cloud Manager を離れる必要がないように、System Manager インターフェイスを Cloud Manager 内に直接組み込んでいます。
+ONTAPオンプレミス クラスタの高度な管理を実行する必要がある場合は、 ONTAPシステムに付属の管理インターフェイスであるONTAP System Manager を使用して実行できます。高度な管理を行うために Cloud Manager を離れる必要がないように、System Manager インターフェイスを Cloud Manager 内に直接組み込んでいます。
 
 この詳細ビューは、9.10.0 以降を実行しているオンプレミスのONTAPクラスターでプレビューとして利用できます。今後のリリースでは、このエクスペリエンスを改良し、機能強化を追加する予定です。製品内チャットを使用してフィードバックをお送りください。
 

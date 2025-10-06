@@ -1,10 +1,10 @@
 ---
 indexpage:
-  title: NetAppコンソールを使用したオンプレミスのONTAPクラスタ管理
-  summary: NetAppコンソールからNetApp AFFおよびFASシステムを管理して、ストレージのプロビジョニング、データの複製、重要なクラウドベースのデータ
+  title: NetApp Consoleを使用したオンプレミスのONTAPクラスタ管理
+  summary: NetApp ConsoleからNetApp AFFおよびFASシステムを管理して、ストレージのプロビジョニング、データの複製、重要なクラウドベースのデータ
     サービスの構成を行います。
   keywords: bluexp, netapp console, ontap, discover onprem
-  lead: NetAppコンソールからNetApp AFFおよびFASシステムを管理して、ストレージのプロビジョニング、データの複製、重要なクラウドベースのデータ
+  lead: NetApp ConsoleからNetApp AFFおよびFASシステムを管理して、ストレージのプロビジョニング、データの複製、重要なクラウドベースのデータ
     サービスの構成を行います。
   tiles:
   - title: 始めましょう
@@ -13,7 +13,7 @@ indexpage:
       url: concept-onprem-ontap.html
     - title: ONTAPクラスタの検出
       url: task-discovering-ontap.html
-  - title: NetAppコンソールでオンプレミスのONTAPクラスタを管理する
+  - title: NetApp ConsoleでオンプレミスのONTAPクラスタを管理する
     links:
     - title: 直接検出されたクラスターを管理する
       url: task-manage-ontap-direct.html
@@ -21,9 +21,9 @@ indexpage:
       url: task-manage-ontap-connector.html
   - title: ブログとコミュニティ
     links:
-    - title: NetAppコンソール
+    - title: NetApp Console
       url: https://www.netapp.com/console
-    - title: NetAppデータサービス
+    - title: NetApp Data Services
       url: https://www.netapp.com/data-services/
     - title: NetAppコミュニティ
       url: https://community.netapp.com/

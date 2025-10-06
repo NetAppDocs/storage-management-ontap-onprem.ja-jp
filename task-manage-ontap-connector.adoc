@@ -14,9 +14,9 @@ summary: コンソール エージェントを使用してオンプレミスのO
 
 
 [role="lead"]
-コンソール エージェントを使用してオンプレミスのONTAPクラスターを検出した場合は、 NetAppコンソールから直接ボリュームを作成し、高度な管理のためにONTAP System Manager に (コンソールから直接) アクセスし、 NetAppデータ サービスを有効にすることができます。
+コンソール エージェントを使用してオンプレミスのONTAPクラスターを検出した場合は、 NetApp Consoleから直接ボリュームを作成し、 ONTAP System Manager に (コンソールから直接) アクセスして高度な管理を行い、 NetAppデータ サービスを有効にすることができます。
 
-.必要なNetAppコンソール ロール:
+.必要なNetApp Consoleロール:
 ストレージ管理者またはシステムヘルススペシャリスト。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["コンソール アクセス ロールについて学習します。"^]
 
 *システム* ページでは、コンソール エージェントで検出されたクラスターのシステム アイコンは次のようになります。
@@ -27,7 +27,7 @@ image:screenshot-connector-we.png["コンソール エージェントでクラ�
 
 
 
-== NetAppコンソールからFlexVolボリュームを作成する
+== NetApp ConsoleからFlexVolボリュームを作成する
 
 コンソール エージェントを使用してオンプレミスのONTAPクラスタをコンソールに追加した後、コンソールから直接FlexVolボリュームをプロビジョニングおよび管理できます。
 
@@ -80,9 +80,9 @@ image:screenshot-connector-we.png["コンソール エージェントでクラ�
 
 
 
-== NetAppコンソールAPIを使用してFlexGroupボリュームを作成する
+== NetApp ConsoleAPIを使用してFlexGroupボリュームを作成する
 
-NetAppコンソール API を使用してFlexGroupボリュームを作成できます。FlexGroupボリュームは、ハイパフォーマンスと自動負荷分散を実現するスケールアウト ボリュームです。
+NetApp ConsoleAPI を使用してFlexGroupボリュームを作成できます。FlexGroupボリュームは、ハイパフォーマンスと自動負荷分散を実現するスケールアウト ボリュームです。
 
 * https://docs.netapp.com/us-en/bluexp-automation/cm/wf_onprem_flexgroup_ontap_create_vol.html["APIを使用してFlexGroupボリュームを作成する方法を学びます"^]
 * https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html["FlexGroupボリュームとは何かを学ぶ"^]
@@ -90,7 +90,7 @@ NetAppコンソール API を使用してFlexGroupボリュームを作成でき
 
 
 
-== NetAppコンソールからONTAP System Managerにアクセスする
+== NetApp ConsoleからONTAP System Managerにアクセスする
 
 コンソール内から直接ONTAP System Manager インターフェイスにアクセスできます。
 
@@ -140,7 +140,7 @@ link:reference-limitations.html["制限事項のリストを確認する"] 。
 
 
 
-=== NetAppコンソールからONTAP System Managerにアクセスする
+=== NetApp ConsoleからONTAP System Managerにアクセスする
 
 システムのシステム マネージャーを開きます。
 
@@ -175,25 +175,25 @@ ONTAPでSystem Managerを使用する際にヘルプが必要な場合は、以�
 データを複製する:: Cloud Volumes ONTAPシステム、 Amazon FSx for ONTAPファイルシステム、 ONTAPクラスター間でデータを複製します。クラウドとの間でデータを移動するのに役立つ 1 回限りのデータ レプリケーション、または災害復旧や長期のデータ保持に役立つ定期的なスケジュールを選択します。
 +
 --
-https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["NetAppレプリケーションのドキュメント"^]
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["NetApp Replicationのドキュメント"^]
 
 --
 データのバックアップ:: オンプレミスのONTAPシステムからクラウド内の低コストのオブジェクト ストレージにデータをバックアップします。
 +
 --
-https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-backup-to-cloud.html["NetAppバックアップおよびリカバリのドキュメント"^]
+https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-backup-to-cloud.html["NetApp Backup and Recoveryのドキュメント"^]
 
 --
 データをスキャン、マッピング、分類する:: 企業のオンプレミス クラスターをスキャンして、データをマッピングおよび分類し、個人情報を識別します。これにより、セキュリティとコンプライアンスのリスクが軽減され、ストレージ コストが削減され、データ移行プロジェクトが支援されます。
 +
 --
-https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["NetAppデータ分類ドキュメント"^]
+https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["NetApp Data Classificationドキュメント"^]
 
 --
 クラウドへのデータの階層化:: ONTAPクラスターからオブジェクト ストレージに非アクティブなデータを自動的に階層化することで、データ センターをクラウドに拡張します。
 +
 --
-https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["NetAppクラウド階層化ドキュメント"^]
+https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["NetApp Cloud Tieringドキュメント"^]
 
 --
 容量の低いクラスターを特定する:: 容量が低いクラスターを特定し、現在の容量と予測容量を確認します。

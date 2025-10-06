@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="87377698a8dca305b9579a13060142f2" category="doc">FlexGroupボリュームを作成する</block>
+  <block id="14b044746cb87538e696ebd7cef86e8f" category="paragraph">コネクタを使用してクラスターを管理している場合は、 BlueXP API を使用してFlexGroupボリュームを作成できるようになりました。</block>
+  <block id="ca513b668252beaae65808764fc2388f" category="inline-link">FlexGroupボリュームの作成方法を学ぶ</block>
+  <block id="dfc9f0f0920c102b079fd1c513fccdde" category="list-text"><block ref="dfc9f0f0920c102b079fd1c513fccdde" category="inline-link-rx"></block></block>
+  <block id="bbcffd6476036994102e5ec1c5571f64" category="inline-link">FlexGroupボリュームとは何かを学ぶ</block>
+  <block id="a33a2b4a40f0a01a71b97f709ac14074" category="list-text"><block ref="a33a2b4a40f0a01a71b97f709ac14074" category="inline-link-rx"></block></block>
+  <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="doc">ボリュームテンプレートはサポートされなくなりました</block>
+  <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">テンプレートからボリュームを作成することはできなくなりました。このアクションは、利用できなくなったBlueXP修復サービスに関連付けられていました。</block>
+  <block id="1e095c69621645fccc8f12cd7f35f6fc" category="doc">ASA r2 システムのサポート</block>
+  <block id="0c02bcea354671c5372f06a37c547a7d" category="paragraph">BlueXP を標準モードまたは制限モードで使用する場合、 BlueXPでNetApp ASA r2 システムを検出できるようになりました。  NetApp ASA r2 システムを検出し、作業環境を開くと、System Manager に直接移動します。</block>
+  <block id="d5861f4539296095cd7c9fdfd0c5a2c9" category="paragraph">ASA r2 システムでは他の管理オプションは利用できません。標準ビューを使用することはできず、 BlueXPサービスを有効にすることもできません。</block>
+  <block id="f2fba5567ec0d8ae5addf04c960ba6d0" category="paragraph">BlueXP をプライベート モードで使用する場合、 ASA r2 システムの検出はサポートされません。</block>
+  <block id="989977a18a476a92018e04dd60ec37c1" category="inline-link">ASA r2システムの詳細</block>
+  <block id="a7c7539e11570decc041c60258667032" category="list-text"><block ref="a7c7539e11570decc041c60258667032" category="inline-link-rx"></block></block>
+  <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">BlueXPの展開モードについて学ぶ</block>
+  <block id="1fbeb219941cbb548a79e88d779ddaeb" category="list-text"><block ref="1fbeb219941cbb548a79e88d779ddaeb" category="inline-link-rx"></block></block>
+  <block id="613fbbb3f2dbf238c8527a537252e8ed" category="doc">プライベートモードを備えたASA r2 システムのサポート</block>
+  <block id="0d9e2244b8fb5d13651efe34b9723803" category="paragraph">BlueXP をプライベート モードで使用するときに、 NetApp ASA r2 システムを検出できるようになりました。このサポートは、 BlueXPの 3.9.46 プライベート モード リリース以降で利用できます。</block>
+  <block id="1da5a40083bd16c3443e7eda42875506" category="doc">BlueXPアクセスロールが必要</block>
+  <block id="c86bd67be80794fcaa3f1d91aa8b2899" category="inline-link-macro">アクセス ロールについて学習します。</block>
+  <block id="c33f8c65624465d916ec23f462428c02" category="paragraph">オンプレミスのONTAPクラスターを表示、検出、または管理するには、組織管理者、フォルダーまたはプロジェクト管理者、ストレージ管理者、またはシステム ヘルス スペシャリストのいずれかのアクセス ロールが必要になります。 <block ref="77eb7cc86be774e9cb4fdfac100bd232" category="inline-link-macro-rx"></block></block>
+  <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXPはNetApp Consoleになりました</block>
+  <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。</block>
+  <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">NetApp Consoleのリリースノート</block>
+  <block id="800c173937521899b70a4ab5d735d3d7" category="paragraph">変更内容の詳細については、<block ref="b78e17cf58c4e309929c8d6a69594c7d" category="inline-link-macro-rx"></block> 。</block>
+  <block id="8f091d30f3f7b297ff75d0037ea8d7bf" category="summary">デジタル アドバイザーを使用すると、 ONTAPクラスターの運用、セキュリティ、パフォーマンスを最適化できます。</block>
+  <block id="767f8e46413ca208f7f2fbdc36377c43" category="doc">NetApp Digital Advisorを使用してクラスタを最適化する</block>
+  <block id="784fa467296efc0294ee0be27082dc4d" category="paragraph">NetApp Digital Advisor を使用すると、 ONTAPクラスタの運用、セキュリティ、パフォーマンスを最適化できます。</block>
+  <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">機能</block>
+  <block id="346661910d62d25c1475a0a09bd7a473" category="paragraph">Digital Advisorを使用すると、ストレージ システムの全体的なステータス、システムの健全性に関する概要情報、インベントリ、計画、アップグレード、貴重な洞察をウォッチリスト レベルで表示できます。</block>
+  <block id="cd5d4df84a7902a777304de9ff13e8a8" category="list-text">ストレージシステムの健全性を分析して最適化します</block>
+  <block id="9d4e486fd4968dd03a1921222e688c12" category="list-text">ストレージシステムに対するあらゆるリスクと、リスクを軽減するための対策に関する洞察を得る</block>
+  <block id="4c8438807538fa50db0d24cda516c562" category="list-text">パフォーマンスデータをグラフ形式で表示して、ストレージデバイスのパフォーマンスを分析します。</block>
+  <block id="63a792f0efaeee81d9e7f3ba251637c2" category="list-text">90% の容量を超えた、または 90% の容量に近づいているシステムの詳細を取得します。</block>
+  <block id="25bab72d979d2f781310fbd8a7510d1e" category="list-text">有効期限が切れた、または今後 6 か月以内に有効期限が近づくハードウェアとソフトウェアに関する情報を取得します。</block>
+  <block id="c0b44a835cfaa8886063c96fb9342411" category="list-text">Ansibleを使用してストレージシステムソフトウェアをアップグレードし、 ONTAPファームウェアを更新します。</block>
+  <block id="696fbf3ecd0e89c737f9c5b7adddfb8e" category="section-title">サポートされているONTAPシステム</block>
+  <block id="506bd7eab061c4dfb862025b64c70f67" category="paragraph">Digital Advisor は、 NetAppサポート サイト (NSS) アカウントに関連付けられているすべてのオンプレミスONTAPシステムとCloud Volumes ONTAPシステムに関する情報を提供します。</block>
+  <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="section-title">詳細情報</block>
+  <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">Digital Advisorのドキュメント</block>
+  <block id="f38c64bbd8ec17fdea3c3b931a5333c6" category="paragraph"><block ref="f38c64bbd8ec17fdea3c3b931a5333c6" category="inline-link-rx"></block></block>
+  <block id="9be2e2782724eee71ac661baa093339d" category="summary">AFF/ FASコントローラおよびONTAP Select上で実行されているONTAPクラスターをNetApp Consoleから管理できます。オンプレミスのONTAPシステムをNetApp Consoleに追加すると、すべてのストレージとデータ資産を単一のインターフェースから管理できるようになります。</block>
+  <block id="efd8b4aecde4d837ab44ddaf52e7657d" category="doc">NetApp ConsoleでのオンプレミスONTAPクラスタ管理について学ぶ</block>
+  <block id="f79dd7235ac6a15f707932f36bda08ef" category="paragraph">AFF/ FASコントローラおよびONTAP Select上で実行されているONTAPクラスターをNetApp Consoleから管理できます。オンプレミスのONTAPシステムをコンソールに追加すると、すべてのストレージとデータ資産を一元管理できるようになります。</block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="section-title">NetApp Console</block>
+  <block id="0a0979a6d279475a420ea5c279943daa" category="paragraph">NetApp Consoleは、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとデータ サービスの集中管理を提供します。NetAppデータ サービスにアクセスして使用するには、コンソールが必要です。管理インターフェースとして、1 つのインターフェースから多数のストレージ リソースを管理できます。コンソール管理者は、企業内のすべてのシステムのストレージとサービスへのアクセスを制御できます。</block>
+  <block id="7118a6b22768dabe4720d84710ea1e43" category="paragraph">NetApp Consoleの使用を開始するためにライセンスやサブスクリプションは必要ありません。ストレージ システムまたはNetAppデータ サービスへの接続を確保するためにクラウドにコンソール エージェントを展開する必要がある場合にのみ料金が発生します。ただし、コンソールからアクセスできる一部のNetAppデータ サービスは、ライセンスまたはサブスクリプションベースです。</block>
+  <block id="1a90436cad6b2c834a6f0bf4b63bb676" category="paragraph">詳細はこちら<block ref="185be9890bef04443cd0fba90b4aff11" category="inline-link-rx"></block>。</block>
+  <block id="fb24315d532abea28c978f8643868013" category="list-text">NFSおよびCIFSボリュームを管理する</block>
+  <block id="adb56ad9cd1545569d057a0870829609" category="list-text">コンソールから任意の管理対象クラスタのONTAP System Manager にアクセスします。</block>
+  <block id="149beeefe15ab521c1672c4e84d98080" category="list-text">分析と制御による健全性とパフォーマンスの観測性を実現</block>
+  <block id="6c8bfbe0372128cde27631bc56cfcf04" category="list-text">データ サービスを使用して、データの複製、バックアップ、スキャン、分類、階層化を行います。</block>
+  <block id="e6330d5106c771279d9ad23928f958fb" category="list-text">コンソールでハードウェアとソフトウェアの契約ステータス情報を表示する</block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">料金</block>
+  <block id="4021c0d07bda2ea80ded248828507d76" category="paragraph">コストがかかる場合があります。コストは次のような要素によって異なります。</block>
+  <block id="57680964089872f9d337e05bf8bfb358" category="list-text">コンソール エージェントをデプロイしてクラスターを検出および管理する場所。</block>
+  <block id="e56122aac65ec47b6ddcc405622fcf5b" category="paragraph">コンソール エージェントは、クラウドまたはオンプレミスにインストールできます。クラウドにコンソール エージェントをインストールすると、コストが発生します。</block>
+  <block id="f2c1c0f041fc340f7b70252f040e3924" category="list-text">NetApp Backup and Recovery、 NetApp Ransomware ResilienceなどのNetAppデータ サービスを使用するかどうか。</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律上の表示</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法的通知から、著作権情報、商標、特許などを確認できます。</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp、NetAppのロゴ、NetAppの商標一覧のページに掲載されているマークは、NetApp, Inc.の商標です。その他の会社名と製品名は、それを所有する各社の商標である場合があります。</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">特許</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">現在NetAppが所有する特許の一覧は以下のページから閲覧できます。</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">プライバシー ポリシー</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、 NetAppソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が提供されます。</block>
+  <block id="4fd101b562f1e5e8d87ff8710122a42f" category="inline-link">NetApp Consoleに関するお知らせ</block>
+  <block id="665acc6d2ee48d5efd698763b6fbf735" category="paragraph"><block ref="665acc6d2ee48d5efd698763b6fbf735" category="inline-link-rx"></block></block>
+  <block id="1eba71d64e6c5e410e558530711e835b" category="summary">今回のリリースでサポートされていない、または今回のリリースでは正常に機能しないプラットフォーム、デバイス、機能が記載されています。これらの制限事項をよく確認してください。</block>
+  <block id="7b021d8490de77d09ad0aabce1db0694" category="doc">NetApp ConsoleでオンプレミスのONTAPクラスタを管理する際の既知の制限</block>
+  <block id="835e40a074ba47935e3e68e3452eb52f" category="section-title">ASA r2 システムに関連する制限</block>
+  <block id="d7e2ff6c1b6b7d25b9f3596567029677" category="paragraph">NetApp ASA r2 システムを検出すると、System Manager に移動します。</block>
+  <block id="07e9fa47446b3dea7b31d268b8760d64" category="paragraph">ASA r2 システムでは他の管理オプションは利用できません。標準ビューを使用することはできず、 NetAppデータ サービスを有効にすることもできません。</block>
+  <block id="51f9789c1f459351ccbb34c7b6043a74" category="section-title">サポートされていないクラスター</block>
+  <block id="d914c3ca19e356b58a16e8c87724687e" category="paragraph">SAML 認証が設定されているオンプレミスのONTAPクラスターは、コンソールではサポートされません。</block>
+  <block id="3b4a393ec2775335fff67bde36ea1a2c" category="section-title">システムマネージャの制限</block>
+  <block id="c48fa27882b16b947546d090d526b250" category="paragraph">次の System Manager 機能はコンソールからはサポートされません。</block>
+  <block id="e710f9addfdf1e48c1320d497696c4fc" category="list-text">クラスターのセットアップ</block>
+  <block id="7c42f36290d675f4df34ac5b9a187686" category="paragraph">オンプレミスのONTAPクラスターで管理 IP アドレスを設定し、管理者パスワードを構成すると、コンソールでクラスターを検出できるようになります。</block>
+  <block id="ee74e57c3f99de5bd2475a3fe235ef15" category="list-text">ロールベースのアクセス制御（コンソールエージェントのみ）</block>
+  <block id="5c782b002503290f00acf76f2db6e2fc" category="paragraph">コンソール エージェントを使用してオンプレミスのONTAPクラスタを検出および管理する場合、System Manager からのロールベースのアクセス制御はサポートされません。検出プロセス中に管理者の資格情報を入力するよう求められます。これらの資格情報は、System Manager から実行されるすべてのアクションに使用されます。</block>
+  <block id="0f91ddbe2a031c0bffbbaf61ec855f75" category="paragraph">直接検出オプションを使用すると、コンソールでシステムを開くたびに、 ONTAP認証情報を使用してログインするように求められます。</block>
+  <block id="7786dc709b32a1c2b29500a444f79e9a" category="list-text">NetApp Backup and Recoveryのアクティベーション</block>
+  <block id="48bf063e534e95acdf29f80c45924be0" category="paragraph">System Manager からのバックアップとリカバリを有効にするには、クラスターのバージョンが 9.13.1 である必要があります。</block>
+  <block id="7d782479a41a3941b57cc7c2b60d318a" category="inline-link">始める方法を学ぶ</block>
+  <block id="4e9d48b6b56c65fb46ddd5e6460277e9" category="paragraph">コンソール エージェントを使用してクラスターを検出しなかった場合、System Manager (詳細ビュー) を使用してバックアップとリカバリを有効にすることはできません。ただし、コンソールから直接オンプレミス クラスターでバックアップとリカバリを有効にすることができます。<block ref="e3bdf105d163a62b1d83e3f92f872319" category="inline-link-rx"></block></block>
+  <block id="dc7f30ec5bd878efd2189fe1b0703118" category="list-text">オンデマンドアップグレード</block>
+  <block id="9eb06491d0dc3d6fae682e802616dce9" category="paragraph">クラスタ バージョンがONTAP 9.9.1 以前の場合、ファームウェアおよびソフトウェアのオンデマンド アップグレードは利用できません。</block>
+  <block id="face24e32703b96941a0a9f58cab36d4" category="paragraph">コンソール エージェントがない場合、ローカル マシンから更新することはできません。コンソールを使用してアクセスできるサーバーからのみ更新できます。</block>
+  <block id="cff5bc039637fff679fead59b27d79c4" category="list-text">グローバル検索</block>
+  <block id="382f24d48bc1efa5dd974e166ac8df58" category="list-text">ユーザーインターフェース設定</block>
+  <block id="969c8dcbcecafedce576ae70c4a3c692" category="summary">NetApp ConsoleからオンプレミスのONTAPクラスターを検出し、コンソールから利用できるONTAP System Manager を使用してボリュームの管理と高度な管理を開始できるようにします。</block>
+  <block id="d1b29fc7b35be872f620d5d931e8766c" category="doc">NetApp ConsoleでオンプレミスのONTAPクラスターを検出する</block>
+  <block id="1730b42e5b59042dfdc6f3d1a901abe8" category="paragraph">NetApp ConsoleからオンプレミスのONTAPクラスターを検出し、コンソールから直接ONTAP System Manager を使用してボリュームの管理と高度な管理を実行できるようになります。</block>
+  <block id="087c69ac86f405646aaecdc0b84eba8d" category="paragraph-title">必要なコンソールロール:</block>
+  <block id="dbbc09735940a2a21109b74dc600b92b" category="inline-link-macro">NetApp Consoleのアクセス ロールについて学習します。</block>
+  <block id="0b1b216f94a80b2e5f3b3d7a4cad23c5" category="paragraph">ストレージ管理者またはシステムヘルススペシャリスト。<block ref="f934f8c47ee938050655a3fea2497dd8" category="inline-link-macro-rx"></block></block>
+  <block id="d3d762abdaccb1dfe422eda709146098" category="section-title">ステップ1: 検出と管理のオプションを確認する</block>
+  <block id="ae75b75301ec9eda499a56de00351e72" category="paragraph">オンプレミスのONTAPクラスターをコンソールに追加するには、2 つの方法があります。選択方法は、組織にコンソール エージェントがインストールされているかどうかによって異なります。</block>
+  <block id="b2a374ced122f79938316510ffaddc25" category="list-text">コンソールエージェントを使用した検出と管理</block>
+  <block id="a3736487d08fb63c22adeaf7035f0bca" category="list-text">このオプションを使用すると、次の機能を使用してONTAP 8.3 以降を実行しているクラスタを管理できます。</block>
+  <block id="cd003ebb69eeea87816020f61834620c" category="list-text">NetApp Consoleを通じて基本的なボリューム操作をネイティブに提供します</block>
+  <block id="0b5d7397550ec392177f9f574abdf9c2" category="list-text">ONTAP System Manager（ ONTAP 9.10.0以降でサポート）では、コンソールから各クラスタのSystem Managerに直接アクセスできます。</block>
+  <block id="a1471a8ede662ca724fd280a1005d7f9" category="list-text">データ複製、バックアップとリカバリ、データ分類、クラウド階層化を提供するNetAppデータサービスとの統合</block>
+  <block id="d4a6e71a69daabc670296b6e5d940bcf" category="inline-link">組織の管理者に問い合わせてください。</block>
+  <block id="2e85119401bde157dbfaceb326ffc24e" category="list-text">コンソール エージェントをインストールするには、組織管理者のロールが必要です。質問がある場合は、コンソール管理者にお問い合わせください。<block ref="23553e4bd18aac58793088224d68bd3d" category="inline-link-rx"></block></block>
+  <block id="ed2669e12a2aca1d23d0391fe9aa4d4f" category="list-text">直接的な検出と管理</block>
+  <block id="35a995f567662305fca4eed3895deb78" category="list-text">このオプションを使用すると、System Manager を使用してONTAP 9.12.1 以降を実行しているクラスタを管理できます。他の管理オプションは利用できません。標準ビューを使用することはできず、 NetAppデータ サービスを有効にすることもできません。</block>
+  <block id="aa6c67316f44ea02c19cc637b2c2ef63" category="paragraph">このオプションにはコンソール エージェントは必要ありません。</block>
+  <block id="e04b8c0ecfdcffe032cc01cf84214437" category="paragraph">コンソールに接続して 9.12.1 以降を実行しているオンプレミスのONTAPクラスター上の System Manager にアクセスすると、コンソールから直接クラスターを管理するように求められます。このプロンプトに従うと、直接検出オプションを使用してコンソールでクラスターが検出されます。</block>
+  <block id="63e4fa81df4f8716cfcd36c8cd6e6d22" category="paragraph">クラスターが検出されると、コンソールの *システム* ページでクラスターが利用できるようになります。</block>
+  <block id="87b2f736c3f72f1fe06a64c91dbe3f5e" category="paragraph">NetApp Consoleにコンソール エージェントを追加する場合は、*未検出システム* ページからオンプレミス クラスターを再度追加する必要があります。これにより、コンソールからのネイティブ管理とNetAppデータ サービスへのアクセスが可能になります。その後、他のシステムを削除する必要があります。</block>
+  <block id="663060c661d21dbe1c32242cc8731f0e" category="section-title">ステップ2: 環境を設定する</block>
+  <block id="3eb7e8933c13ab4b897e0a64baedf0fc" category="paragraph">オンプレミスのONTAPクラスターを検出する前に、次の要件を満たしていることを確認してください。</block>
+  <block id="a1a264e616e24563d4b8f8b5795ea403" category="list-text">一般要件</block>
+  <block id="7d0b01345a5038f25fdd17dc04d8872e" category="list-text">クラスター管理 IP アドレスと管理者ユーザー アカウントのパスワードが必要です。</block>
+  <block id="f1dc34ed21a60c010809ad3f51a48991" category="list-text">コンソールは、HTTPS を使用してONTAPクラスターを検出します。カスタム ファイアウォール ポリシーを使用する場合、 ONTAPクラスタはポート 443 経由の受信 HTTPS アクセスを許可する必要があります。</block>
+  <block id="c14049c05a3e44d0e3fae4bfd918619f" category="paragraph">デフォルトの「mgmt」ファイアウォール ポリシーでは、すべての IP からの受信 HTTPS アクセスが許可されます。変更された場合は、エージェント ホストで HTTPS プロトコルが有効になっていることを確認します。</block>
+  <block id="e82f46590519b9334e39aabe565ff654" category="list-text">コンソールエージェントでシステムを検出するには</block>
+  <block id="8ab7236e714d67d0d2cdb0f6c0c6bdea" category="list-text">オンプレミス クラスターはONTAP 8.3 以降を実行している必要があります。</block>
+  <block id="98a48922296ab16b4da9f0a6ddd0c403" category="list-text">クラウド プロバイダーまたはオンプレミスにコンソール エージェントがインストールされている必要があります。</block>
+  <block id="170449681ba6744c89ff5e9d6f3adc86" category="paragraph">コールド データをクラウドに階層化するには、ターゲット環境のエージェント要件を確認します。</block>
+  <block id="91e534d044a3d9c6a1c8575f89e73c9b" category="inline-link">コンソールエージェントについて学ぶ</block>
+  <block id="299091a5cbcad3c418786b0de4d0c3b0" category="list-text"><block ref="299091a5cbcad3c418786b0de4d0c3b0" category="inline-link-rx"></block></block>
+  <block id="096686bce670ae5bcba683b41a15fa90" category="inline-link">複数のエージェントを切り替える方法を学ぶ</block>
+  <block id="de4fbbe08ea86732dd8f806479644bdd" category="list-text"><block ref="de4fbbe08ea86732dd8f806479644bdd" category="inline-link-rx"></block></block>
+  <block id="3b50aa74e0572012073a00299390197e" category="inline-link">NetApp Cloud Tieringについて学ぶ</block>
+  <block id="096f3dec18cbaace57ae0aed5243222a" category="list-text"><block ref="096f3dec18cbaace57ae0aed5243222a" category="inline-link-rx"></block></block>
+  <block id="5caa875315778ebb3bef681af57a0582" category="list-text">エージェント ホストはポート 443 (HTTPS) 経由の送信接続を許可する必要があり、 ONTAPクラスタはポート 443 経由のクラスタ管理 LIF への受信 HTTP アクセスを許可する必要があります。</block>
+  <block id="58ff78936b6d73707a74f4aca22c20be" category="paragraph">エージェントがクラウド内にある場合、事前定義されたセキュリティ グループによってすべての送信通信が許可されます。</block>
+  <block id="be8c0cb1018ac37d4931901b25f4d7b8" category="list-text">直接証拠開示の要件</block>
+  <block id="971b56bb19698ede33f8f4ef782f3774" category="list-text">オンプレミス クラスターはONTAP 9.12.1 以降を実行している必要があります。</block>
+  <block id="b1268d5945309a2b623dbac8ed28bc83" category="list-text">クラスターには、 NetApp Consoleサービスへの受信および送信接続が必要です。</block>
+  <block id="3693065b074c131d0dd4c103327a1d7b" category="paragraph">\https://cloudmanager.cloud.netapp.com/ontap-service/check-service-connection</block>
+  <block id="933d8167f78326f447f349f9de4ec3e0" category="list-text">コンソールにアクセスするために使用するコンピューターには、プライベート ネットワーク内の他のリソースへの接続を提供するのと同様に、オンプレミスのONTAPクラスターへのネットワーク接続が必要です。</block>
+  <block id="f06497cae9ab6e78fd37893cdca029bd" category="section-title">ステップ3: クラスターの検出</block>
+  <block id="8296ca45bb7cfe0620a93ad852c01e35" category="paragraph">コンソールからオンプレミスのONTAPクラスターを検出するには、次の 2 つの方法のいずれかを使用します。</block>
+  <block id="2e5085fdc5b66595ab2026e38c938367" category="list-text">*ストレージ &gt; 管理 &gt; システム* から、*追加 +* を選択し、オンプレミスのONTAPクラスターの詳細を手動で追加します。</block>
+  <block id="dba7205afc7b2cf67d79ecc081c7b835" category="list-text">*ストレージ &gt; 管理 &gt; 検出可能なシステム* から、 NetApp Consoleログインの電子メール アドレスに関連付けられているONTAPクラスターに基づいてコンソールが事前検出したクラスターを選択します。</block>
+  <block id="435159e696cefb3c80615ee1022a13b4" category="paragraph">検出プロセスを開始すると、コンソールは次のようにクラスターを検出します。</block>
+  <block id="0cf68afd6fcf0f4c0e3a949071596993" category="list-text">ONTAPクラスタに接続しているコンソール エージェントがある場合、コンソールはそのエージェントを使用してクラスタを検出および管理します。</block>
+  <block id="7a166f4df60b8338eed8bc558eb640f0" category="list-text">コンソール エージェントがない場合、またはエージェントがONTAPクラスターに接続されていない場合、コンソールは自動的に直接検出および管理オプションを使用します。</block>
+  <block id="c77ba8df974ac9ac198176dcff4f8f52" category="open-title">クラスターを手動で検出する</block>
+  <block id="93cbb61b2565b6dbf0515c41d562ae14" category="paragraph">クラスタ管理 IP アドレスと管理者ユーザー アカウントのパスワードを入力して、コンソールでオンプレミスのONTAPクラスタを検出します。</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">手順</block>
+  <block id="c27deb5ada399336a287848889d2032c" category="list-text">ナビゲーション メニューから、*ストレージ &gt; 管理* を選択します。</block>
+  <block id="b13f80bab35d0e5b24adc2f1065c5fdf" category="list-text">*システム*ページで、*追加+*を選択します。</block>
+  <block id="57a68d192721201de4e91a2f05ce058b" category="list-text">*オンプレミス*を選択します。</block>
+  <block id="2901a10a7b1d7a91ad19913b88e371a6" category="list-text">On-Premises ONTAPの横にある *Discover* を選択します。</block>
+  <block id="1de006c684d29369fa4392137f9a3894" category="list-text">[_Discover_] ページで、クラスター管理 IP アドレスと管理者ユーザー アカウントのパスワードを入力します。</block>
+  <block id="b9c1f4eb5bf92f6b86d5028551817828" category="list-text">クラスターを直接検出する場合 (コンソール エージェントなし) は、[資格情報を保存] を選択します。</block>
+  <block id="485163f9cb024aaf7afa931910bacb59" category="paragraph">このオプションを選択すると、コンソールからシステムにアクセスするたびに資格情報を再入力する必要がなくなります。これらの資格情報は、独自のNetApp Consoleユーザー ログインに関連付けられています。これらは、NetApp Console組織内の他のユーザーが使用するために保存されるわけではありません。</block>
+  <block id="6717014f0e48b7ab08c9846925b42c93" category="list-text">*Discover*を選択します。</block>
+  <block id="0af90a54ff3386d3c7f24ab678bc3945" category="paragraph">コンソール エージェントがなく、コンソールから IP アドレスにアクセスできない場合は、コンソール エージェントを作成するように求められます。コンソール エージェントがない場合は、コンソール管理者に問い合わせてコンソール エージェントを作成してください。</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
+  <block id="e0a9be6d70e2b6cb105481ef3f492446" category="paragraph">コンソールは、検出されたクラスターを *システム* ページにシステムとして追加します。これでクラスターの管理を開始できます。</block>
+  <block id="299867ed6070a6cda18ae92e5d434213" category="inline-link-macro">直接検出されたクラスターを管理する方法を学ぶ</block>
+  <block id="c3995876aaed94f3589c1d9b516d3805" category="list-text"><block ref="c3995876aaed94f3589c1d9b516d3805" category="inline-link-macro-rx"></block></block>
+  <block id="0453a9f0adad145b25cfdf23836cf986" category="inline-link-macro">コンソールエージェントで検出されたクラスターを管理する方法を学びます</block>
+  <block id="e2c6a7875938c9c1b6c4cd6512ef1725" category="list-text"><block ref="e2c6a7875938c9c1b6c4cd6512ef1725" category="inline-link-macro-rx"></block></block>
+  <block id="50bc63d3ce96c1c059c531930e9b1ccc" category="open-title">事前に検出されたクラスターを追加する</block>
+  <block id="d98fb334a40f1451770cc167b056faa2" category="paragraph">コンソールは、ログイン メールにリンクされているONTAPクラスターを検出し、*Discoverable systems* ページに未検出のクラスターとして表示します。検出されていないクラスターのリストを表示し、一度に 1 つずつ追加できます。</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">タスク概要</block>
+  <block id="197b34d819974addadfe4ebfa0e9caed" category="paragraph">*Discoverable systems* ページに表示されるオンプレミスのONTAPクラスターについては、次の点に注意してください。</block>
+  <block id="d608748d30b65126cde843fad7310cca" category="list-text">コンソールにログインするために使用する電子メール アドレスは、登録済みのフルレベルのNetAppサポート サイト (NSS) アカウントに関連付けられている必要があります。</block>
+  <block id="8319f3680eb39ed6d3cf49d88c4bbdfa" category="list-text">NSS アカウントを使用してコンソールにログインし、「*Discoverable systems*」ページに移動すると、コンソールはその NSS アカウントを使用して、アカウントに関連付けられているクラスターを検索します。</block>
+  <block id="3aaa86c6c9eab3f600bc23bde0047763" category="list-text">ローカル アカウントまたはフェデレーション接続を使用してコンソールにログインし、*Discoverable systems* ページに移動すると、コンソールによって電子メールの確認が求められます。その電子メール アドレスが NSS アカウントに関連付けられている場合、コンソールはその情報を使用して、アカウントに関連付けられているクラスターを検索します。</block>
+  <block id="d550fcc1542a17f7a26ff22860afa620" category="list-text">コンソールには、 AutoSupportメッセージをNetAppに正常に送信したONTAPクラスターのみが表示されます。</block>
+  <block id="b85049c68ea838035f2d0a6a579b4c1b" category="list-text">インベントリ リストを更新するには、*Discoverable systems* ページを終了し、5 分待ってから再度ページに戻ります。</block>
+  <block id="513c356dd1e7dd7137d642be2b540c72" category="list-text">*Discoverable systems* ページで、オンプレミスのONTAPの * 検出 * を選択します。</block>
+  <block id="fa855b00dc3ef3d4581d88ac0367d305" category="inline-image-macro">検出されていないオンプレミスのONTAPクラスター 12 個を示す「Discoverable systems」ページのスクリーンショット。</block>
+  <block id="f28eb0a3fd5555f479ab815569393176" category="paragraph"><block ref="f28eb0a3fd5555f479ab815569393176" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7689e37bac08b82f66558bf21e5ea57d" category="list-text">クラスターを選択し、[*検出*] を選択します。</block>
+  <block id="1b437ef82724c92ca6ff7c3c322cd040" category="paragraph"><block ref="1b437ef82724c92ca6ff7c3c322cd040" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eecdf85dabb12fb229d35075dd322550" category="list-text">管理者ユーザーアカウントのパスワードを入力します。</block>
+  <block id="2b3c35ab7bf544cbfd4bda7b2b84c68d" category="paragraph">コンソール エージェントがなく、コンソールから IP アドレスにアクセスできない場合は、コンソール エージェントを作成するように求められます。コンソール エージェントがない場合は、コンソール管理者に問い合わせてコンソール エージェントを作成してください。</block>
+  <block id="5ae9e7fffccf52fce94c993af9db9dfa" category="summary">NetApp はさまざまな方法でサポートを提供します。ナレッジベース (KB) 記事やコミュニティ フォーラムなど、広範な無料のセルフサポート オプションが 24 時間 365 日ご利用いただけます。サポート登録には、Webチケットによるリモートテクニカルサポートも含まれます。</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">ヘルプを受ける</block>
+  <block id="2feeca48692986e9cc471ec61f847fca" category="paragraph">NetApp は、 NetApp Consoleとそのクラウド サービスをさまざまな方法でサポートします。ナレッジ ベース (KB) 記事やコミュニティ フォーラムなど、豊富な無料のセルフ サポート オプションが 24 時間 365 日ご利用いただけます。サポート登録には、Webチケットによるリモートテクニカルサポートも含まれます。</block>
+  <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">クラウドプロバイダーのファイルサービスのサポートを受ける</block>
+  <block id="317cbd2c4fdbfd06a6c66bcd3f57d7ad" category="paragraph">クラウド プロバイダーのファイル サービス、そのインフラストラクチャ、またはサービスを使用するソリューションに関連するテクニカル サポートについては、その製品のドキュメントを参照してください。</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSx for ONTAP</block>
+  <block id="359d8b16e442ffaa72e03c95fcd60448" category="list-text"><block ref="359d8b16e442ffaa72e03c95fcd60448" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="153836c062a78213f2aa165322254aa4" category="list-text"><block ref="153836c062a78213f2aa165322254aa4" category="inline-link-macro-rx"></block></block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="0d592360c983f234b130127efee38805" category="list-text"><block ref="0d592360c983f234b130127efee38805" category="inline-link-macro-rx"></block></block>
+  <block id="68e6fe8cde496154d24fd032b4262070" category="paragraph">NetAppとそのストレージ ソリューションおよびデータ サービスに固有のテクニカル サポートを受けるには、以下に説明するサポート オプションを使用してください。</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">セルフサポートオプションを使用する</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">以下のオプションは、24 時間 365 日無料でご利用いただけます。</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">ドキュメント</block>
+  <block id="5bb94d173380c00577f5e04b6f26bb94" category="paragraph">現在表示しているNetApp Consoleのドキュメント。</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">ナレッジベース</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="0e20091afcea2d83d0033a933ba85092" category="paragraph">NetAppナレッジベースを検索して、問題のトラブルシューティングに役立つ記事を見つけます。</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">コミュニティ</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="777d75a90b107e4f18469f82c4f81fe2" category="paragraph">NetApp Consoleコミュニティに参加して、進行中のディスカッションをフォローしたり、新しいディスカッションを作成したりできます。</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">NetAppサポートでケースを作成する</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">上記のセルフ サポート オプションに加えて、サポートを有効にした後は、 NetAppサポート スペシャリストと協力して問題を解決することもできます。</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="list-title">始める前に</block>
+  <block id="c406bf0ac8ac87bc5bb7132a7351b2ae" category="inline-link">コンソールログインに関連付けられた資格情報を管理する方法を学びます</block>
+  <block id="377118f28487e70bd456993144b72fc7" category="list-text">*ケースの作成*機能を使用するには、まずNetAppサポート サイトの資格情報をコンソール ログインに関連付ける必要があります。<block ref="68c4321a756e3ffe955b62cff6fea46d" category="inline-link-rx"></block> 。</block>
+  <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">シリアル番号を持つONTAPシステムのケースを開く場合は、NSS アカウントがそのシステムのシリアル番号に関連付けられている必要があります。</block>
+  <block id="0ab80a63088581d58dcf067051f4c894" category="list-text">NetApp Consoleで、[ヘルプ] &gt; [サポート] を選択します。</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">*リソース*ページで、テクニカル サポートの下にある利用可能なオプションのいずれかを選択します。</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">電話で誰かと話したい場合は、「電話する」を選択してください。電話をかけることができる電話番号をリストした netapp.com のページに移動します。</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">NetAppサポート スペシャリストとのチケットを開くには、[ケースを作成] を選択します。</block>
+  <block id="a1123cd59d7bd876c080c33906ae65ce" category="list-text">*サービス*: 問題が関連付けられているサービスを選択します。たとえば、* NetApp Console* は、コンソール内のワークフローまたは機能に関するテクニカル サポートの問題に固有の場合です。</block>
+  <block id="987df7518e2afb50a860647c832afd13" category="list-text">*システム*: ストレージに該当する場合は、* Cloud Volumes ONTAP* または *On-Prem* を選択し、関連する作業環境を選択します。</block>
+  <block id="8f8e8a86e5f52b6186a37bdf266c4320" category="paragraph">システムのリストは、コンソール組織と、上部のバナーで選択したコンソール エージェントの範囲内にあります。</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*ケースの優先度*: ケースの優先度 (低、中、高、重大) を選択します。</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">これらの優先順位の詳細を確認するには、フィールド名の横にある情報アイコンの上にマウスを置きます。</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*問題の説明*: 該当するエラー メッセージや実行したトラブルシューティング手順など、問題の詳細な説明を入力します。</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*追加のメールアドレス*:この問題を他の人に知らせたい場合は、追加のメールアドレスを入力してください。</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*添付ファイル (オプション)*: 一度に 1 つずつ、最大 5 つの添付ファイルをアップロードします。</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">添付ファイルはファイルごとに 25 MB までに制限されます。サポートされているファイル拡張子は、txt、log、pdf、jpg/jpeg、rtf、doc/docx、xls/xlsx、csv です。</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">NetAppサポートでケースを作成できる「ケースの作成」フォームのスクリーンショット。</block>
+  <block id="77c89527ec8a9f89b24c5579d19b3b4b" category="paragraph"><block ref="77c89527ec8a9f89b24c5579d19b3b4b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">終了後の操作</block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">サポート ケース番号を示すポップアップが表示されます。NetAppサポート スペシャリストがお客様のケースを確認し、すぐにご連絡いたします。</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">サポート ケースの履歴については、*設定 &gt; タイムライン* を選択し、「サポート ケースの作成」というアクションを探します。右端のボタンを使用すると、アクションを展開して詳細を表示できます。</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">ケースを作成しようとすると、次のエラー メッセージが表示される場合があります。</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">「選択したサービスに対してケースを作成する権限がありません」</block>
+  <block id="178fdaf97b1d1577437f11ee9d5e5229" category="paragraph">このエラーは、NSS アカウントとそれに関連付けられているレコード会社が、NetApp Consoleアカウントのシリアル番号のレコード会社と同じではないことを意味している可能性があります (つまり、960xxxx) または作業環境のシリアル番号。次のいずれかのオプションを使用してサポートを求めることができます。</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">非技術的なケースを提出する<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="e1100b46295d42ed50ba7a4630710164" category="section-title">サポートケースを管理する</block>
+  <block id="316508a3483178100806a9d44b49aba2" category="paragraph">アクティブなサポート ケースと解決済みのサポート ケースをコンソールから直接表示および管理できます。NSS アカウントおよび会社に関連付けられたケースを管理できます。</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">次の点に注意してください。</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">ページ上部のケース管理ダッシュボードには、次の 2 つのビューがあります。</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">左側のビューには、指定したユーザー NSS アカウントによって過去 3 か月間に開かれたケースの合計が表示されます。</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">右側のビューには、ユーザーの NSS アカウントに基づいて、会社レベルで過去 3 か月間に開かれたケースの合計が表示されます。</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">表の結果には、選択したビューに関連するケースが反映されます。</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">関心のある列を追加または削除したり、優先度やステータスなどの列の内容をフィルタリングしたりできます。その他の列は並べ替え機能のみを提供します。</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">詳細については、以下の手順をご覧ください。</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">ケースごとに、ケースメモを更新したり、まだ「クローズ」または「クローズ保留中」ステータスになっていないケースをクローズしたりする機能を提供します。</block>
+  <block id="9163e8bca6fd93c080d35ab49e3efdfa" category="list-text">NetApp Consoleで、[ヘルプ] &gt; [サポート] を選択します。</block>
+  <block id="2019fd19051c3ef493dbbb9ca65bab87" category="list-text">*ケース管理*を選択し、プロンプトが表示されたら、NSS アカウントをコンソールに追加します。</block>
+  <block id="75e54e3a6fdbf43ed890669e079d7594" category="paragraph">*ケース管理* ページには、コンソール ユーザー アカウントに関連付けられている NSS アカウントに関連するオープン ケースが表示されます。これは、*NSS 管理* ページの上部に表示される NSS アカウントと同じです。</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">必要に応じて、テーブルに表示される情報を変更します。</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">*組織のケース*の下で*表示*を選択すると、会社に関連付けられているすべてのケースが表示されます。</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">正確な日付範囲を選択するか、別の期間を選択して日付範囲を変更します。</block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">列の内容をフィルタリングします。</block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">表に表示されるプラスアイコン</block>
+  <block id="8ac6be88c1aa79062825a147fb263b0e" category="list-text">表に表示される列を変更するには、<block ref="500a336e7ba1c54bcffba4e27bda4eb6" category="inline-image-macro-rx" type="image"></block>次に、表示する列を選択します。</block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">表の最後の列に表示される3つの点のアイコン</block>
+  <block id="049b7b9fab1242f5e715952973c9474d" category="list-text">既存のケースを管理するには、<block ref="7381d9baeaf62eb099ce84f1a21ed5ca" category="inline-image-macro-rx" type="image"></block>利用可能なオプションのいずれかを選択します。</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*ケースを表示*: 特定のケースに関する詳細をすべて表示します。</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*ケースノートを更新*: 問題に関する追加の詳細を入力するか、*ファイルのアップロード*を選択して最大 5 つのファイルを添付します。</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*ケースを閉じる*: ケースを閉じる理由の詳細を入力し、[*ケースを閉じる*] を選択します。</block>
+  <block id="a9d2b231be58ba78da487485a012df4d" category="summary">コンソール エージェントを使用してオンプレミスのONTAPクラスターを検出した場合は、標準ビューからボリュームを作成し、詳細ビューから System Manager を使用して、 NetAppデータ サービスを有効にすることができます。</block>
+  <block id="c6b00f700b6dcffdab6b25d4859b46d6" category="doc">コンソールエージェントで検出されたクラスターを管理する</block>
+  <block id="881287054d54d10a72082525431b4094" category="paragraph">コンソール エージェントを使用してオンプレミスのONTAPクラスターを検出した場合は、 NetApp Consoleから直接ボリュームを作成し、 ONTAP System Manager に (コンソールから直接) アクセスして高度な管理を行い、 NetAppデータ サービスを有効にすることができます。</block>
+  <block id="f3d96e033470d8fb9d043aed29754d44" category="paragraph-title">必要なNetApp Consoleロール:</block>
+  <block id="34333d2783171ddc2c4a2d45b04576db" category="inline-link-macro">コンソール アクセス ロールについて学習します。</block>
+  <block id="b6972ad05aaffd2256e1f4196b3f0181" category="paragraph">ストレージ管理者またはシステムヘルススペシャリスト。<block ref="22172649aa14c41e7c407b3a26adac77" category="inline-link-macro-rx"></block></block>
+  <block id="cf211f2f2ca8898d52b780cfc60bdcf8" category="paragraph">*システム* ページでは、コンソール エージェントで検出されたクラスターのシステム アイコンは次のようになります。</block>
+  <block id="9bd6333fd6e2ed164aa82d89dafc36c1" category="inline-image-macro">コンソール エージェントでクラスターが検出されたときに表示されるシステム アイコンのスクリーンショット。</block>
+  <block id="120e83f6a9a03904f641af7138dda0cf" category="paragraph"><block ref="120e83f6a9a03904f641af7138dda0cf" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1b1875649f81731ada50212ba023b95d" category="paragraph">システムを直接検出した場合、システム アイコンに「Direct」という単語が表示されます。</block>
+  <block id="4edb0a9cc3286a0bbb7212a914b6e120" category="section-title">NetApp ConsoleからFlexVolボリュームを作成する</block>
+  <block id="82a5e9967af6f4bedeeea9542788633b" category="paragraph">コンソール エージェントを使用してオンプレミスのONTAPクラスタをコンソールに追加した後、コンソールから直接FlexVolボリュームをプロビジョニングおよび管理できます。</block>
+  <block id="6fe0e1924361c77ff96555f402550a91" category="paragraph">コンソールを使用すると、既存のアグリゲート上に NFS または CIFS ボリュームを作成できます。ネイティブ コンソール ページからオンプレミスのONTAPクラスターに新しいアグリゲートを作成することはできません。ただし、コンソールからそれぞれのONTAP System Manager にアクセスしてアグリゲートを作成することはできます。</block>
+  <block id="07862f39f97a91d6da489cb9fcbd4a6e" category="list-text">*システム* ページで、ボリュームをプロビジョニングするオンプレミスのONTAPクラスターを選択します。</block>
+  <block id="ba426b409f9ec6763d7b1ecebd5d576f" category="list-text">*ボリューム &gt; ボリュームの追加*を選択します。</block>
+  <block id="108a74a6cbb575c986177039e07dc411" category="list-text">ウィザードの手順に従ってボリュームを作成します。</block>
+  <block id="a28aaa114e91d430f853038c9ac17766" category="list-text">*詳細、保護、タグ*: ボリュームの名前やサイズなどの詳細情報を入力し、スナップショット ポリシーを選択します。</block>
+  <block id="3b0e375a08fe94a129cba31916c9d2dc" category="paragraph">このページの一部のフィールドは説明不要です。次のリストでは、ガイダンスが必要になる可能性のあるフィールドについて説明します。</block>
+  <block id="6f16a5f8ff5d75ab84c018adacdfcbb7" category="cell">フィールド</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">説明</block>
+  <block id="6f6cb72d544962fa333e2e34ce64f719" category="cell">サイズ</block>
+  <block id="f0969d995c7dbb837aab515d5c8cf9cd" category="cell">最大サイズは、シン プロビジョニングを有効にするかどうかによって異なり、シン プロビジョニングを有効にすると、使用可能な物理ストレージよりも大きなボリュームを作成できます。</block>
+  <block id="426fb47479d0477ed5dbc9388b9add76" category="cell">スナップショットポリシー</block>
+  <block id="a64d5e9b653437dfe9118e099d6e5fe0" category="cell">スナップショット コピー ポリシーは、 NetAppスナップショット コピーが作成される頻度と数を定義します。 NetAppスナップショット コピーは、パフォーマンスに影響を与えず、最小限のストレージしか必要としない、ポイントインタイム ファイル システム イメージです。デフォルトのポリシーを選択するか、ポリシーなしを選択できます。  Microsoft SQL Server の一時データベース (tempdb) などの一時データの場合は、none を選択できます。</block>
+  <block id="17b6d3e2bf5506b5e797dfb98b76c0c2" category="list-text">*プロトコル*: ボリュームのプロトコル (NFS、CIFS、または iSCSI) を選択し、ボリュームのアクセス制御または権限を設定します。</block>
+  <block id="f5296ac4fcfeea3d9c6e0ac9781d4fb4" category="paragraph">サーバーなしで CIFS を選択した場合、Active Directory またはワークグループを使用してサーバーを構成するように求めるプロンプトが表示されます。</block>
+  <block id="10ca883ec839df9958683234c16faa0c" category="paragraph">次のリストでは、ガイダンスが必要になる可能性のあるフィールドについて説明します。</block>
+  <block id="8aaaedc342a0dce1d73d33f3fb69a2af" category="cell">アクセス制御</block>
+  <block id="b144a097e0b772113f639011f9d76708" category="cell">NFS エクスポート ポリシーは、ボリュームにアクセスできるサブネット内のクライアントを定義します。デフォルトでは、コンソールはサブネット内のすべてのインスタンスへのアクセスを提供する値を入力します。</block>
+  <block id="4f365bcd27fae641194545a5a823e30f" category="cell">権限とユーザー/グループ</block>
+  <block id="5cd4beaa083f2301775c1a1bc84f2afc" category="cell">これらのフィールドを使用すると、ユーザーとグループの SMB 共有へのアクセス レベル (アクセス制御リストまたは ACL とも呼ばれます) を制御できます。ローカルまたはドメインの Windows ユーザーまたはグループ、あるいは UNIX ユーザーまたはグループを指定できます。ドメイン Windows ユーザー名を指定する場合は、domain\username の形式を使用してユーザーのドメインを含める必要があります。</block>
+  <block id="a17ea0b6ec5074b6e385c43de80e900d" category="list-text">*使用プロファイル*: 必要なストレージの合計量を削減するために、ボリューム上のストレージ効率機能を有効にするか無効にするかを選択します。</block>
+  <block id="b664e4294e5d14d6fd3d39615d4e3341" category="list-text">*確認*: ボリュームの詳細を確認し、[*追加*] を選択します。</block>
+  <block id="18f620d7129450814e89dd8624baaabd" category="section-title">NetApp ConsoleAPIを使用してFlexGroupボリュームを作成する</block>
+  <block id="be168fd03f07ecad35da4b2f85259c97" category="paragraph">NetApp ConsoleAPI を使用してFlexGroupボリュームを作成できます。FlexGroupボリュームは、ハイパフォーマンスと自動負荷分散を実現するスケールアウト ボリュームです。</block>
+  <block id="b72566f4d301c9dec06189b65b061300" category="inline-link">APIを使用してFlexGroupボリュームを作成する方法を学びます</block>
+  <block id="7e22f91f39a086e048c658886855471a" category="list-text"><block ref="7e22f91f39a086e048c658886855471a" category="inline-link-rx"></block></block>
+  <block id="e7461a0e7365faaf906e51d1b1097e0a" category="section-title">NetApp ConsoleからONTAP System Managerにアクセスする</block>
+  <block id="9bf279f44fa1199c88b295609de7537a" category="paragraph">コンソール内から直接ONTAP System Manager インターフェイスにアクセスできます。</block>
+  <block id="8eb2deaa21e5bd2cb3cb15dfa00cd221" category="paragraph">コンソールからONTAP System Manager にアクセスすると、追加の管理機能にアクセスできます。</block>
+  <block id="f3c3ee89c80d32726f5f937c07631d1c" category="list-text">高度なストレージ管理</block>
+  <block id="81988711ef6c9af40c8e8973f25c0bed" category="paragraph">整合性グループ、共有、qtree、クォータ、およびストレージ VM を管理します。</block>
+  <block id="62735a856683757bf28f1f02f97c151c" category="list-text">ネットワーク管理</block>
+  <block id="9fe3a531f2a0b0fa8d13b28253cecfae" category="paragraph">IPspace、ネットワーク インターフェイス、ポートセット、およびイーサネット ポートを管理します。</block>
+  <block id="5da3380058f326675f5268466ae0c24f" category="list-text">イベントと仕事</block>
+  <block id="59536015b2a8a8d499cbe947387acb5e" category="paragraph">イベント ログ、システム アラート、ジョブ、監査ログを表示します。</block>
+  <block id="3f20b3134627198be1e0ff879a88cd8f" category="list-text">高度なデータ保護</block>
+  <block id="18edb92cf2cbf5a1d60be48cff4de617" category="paragraph">ストレージ VM、LUN、整合性グループを保護します。</block>
+  <block id="f17e729a409e6c0faa3ddab50e856b07" category="list-text">ホスト管理</block>
+  <block id="36eae32729ecc4b53ba38b252bc6b356" category="paragraph">SAN イニシエーター グループと NFS クライアントを設定します。</block>
+  <block id="1f0b82560627b660c6c6958a1df834b8" category="section-title">サポートされている構成</block>
+  <block id="8cc569c03bd345c450afe055c793f724" category="paragraph">System Manager による高度な管理は、9.10.0 以降を実行しているオンプレミスのONTAPクラスターでサポートされます。</block>
+  <block id="0f1ca4e2133610fdc8b23e4db3f7cb0c" category="paragraph">System Manager の統合は、GovCloud リージョンまたはアウトバウンド インターネット アクセスがないリージョンではサポートされません。</block>
+  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">制限事項</block>
+  <block id="336f2f04e5298afbd5aa6cb9ef65c0a6" category="paragraph">コンソール経由でONTAP System Manager にアクセスする場合、オンプレミスのONTAPクラスターではいくつかの System Manager 機能がサポートされません。</block>
+  <block id="480454c8f8beef2524f1fbdddc48ea12" category="inline-link-macro">制限事項のリストを確認する</block>
+  <block id="bfe73fc0abe25019e3e0d76f17653911" category="paragraph"><block ref="736a4b96dd4361a68ef1dd0a557122e0" category="inline-link-macro-rx"></block> 。</block>
+  <block id="8fafecc267da91bb6fb518f47268f73d" category="paragraph">システムのシステム マネージャーを開きます。</block>
+  <block id="44b7ffdcf84f31c030ae673e3b4e8e6e" category="list-text">右側のパネルの「サービス」の下で、「システム マネージャー」を見つけて、「開く」を選択します。</block>
+  <block id="c754fa00d5ed3d48cea99de36d7621eb" category="list-text">確認メッセージが表示された場合は、内容を読んで「閉じる」を選択します。</block>
+  <block id="2384fee5ec28c392c4824455705673ad" category="list-text">System Manager を使用してONTAPを管理します。</block>
+  <block id="2c069ca180c796bc045f42b645e2abc2" category="list-text">必要に応じて、[*標準ビューに切り替える*] を選択して、コンソールを介した標準管理に戻ります。</block>
+  <block id="15bab318d1405cd84d8a70ed7aaecf79" category="inline-image-macro">標準ビューへの切り替えオプションが表示されているオンプレミスのONTAPシステムのスクリーンショット。</block>
+  <block id="3087bb399b70b702117806fdbcf6d90b" category="paragraph"><block ref="3087bb399b70b702117806fdbcf6d90b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5d82c1ade2b4a73465d28377bf1ee806" category="section-title">システムマネージャーのヘルプを取得する</block>
+  <block id="eb75aeb3b4b2b9734ba3e52f5483f0b2" category="inline-link">ONTAPのドキュメント</block>
+  <block id="9c1bd416df0d466347865d11e934dec2" category="paragraph">ONTAPでSystem Managerを使用する際にヘルプが必要な場合は、以下を参照してください。<block ref="e4712fca3ed0fd9138bc58dbf36327e9" category="inline-link-rx"></block>ステップバイステップの手順についてはこちらをご覧ください。役立つかもしれないリンクをいくつか紹介します。</block>
+  <block id="b9cf2d579e6b088870d384fe9910b52f" category="inline-link">ボリュームとLUNの管理</block>
+  <block id="8fc667c489390551a74eb985b297d37a" category="list-text"><block ref="8fc667c489390551a74eb985b297d37a" category="inline-link-rx"></block></block>
+  <block id="3e49e5936cffd2e96856c25fa0417df2" category="inline-link">ネットワーク管理</block>
+  <block id="57614f27dec39901199cca4b61cebfe9" category="list-text"><block ref="57614f27dec39901199cca4b61cebfe9" category="inline-link-rx"></block></block>
+  <block id="7e7397a7b79323762c61941fc0e6b5f9" category="inline-link">データ保護</block>
+  <block id="168463a2e30ac746441036fb49df730e" category="list-text"><block ref="168463a2e30ac746441036fb49df730e" category="inline-link-rx"></block></block>
+  <block id="ea4016495f0c69205df568b441270dea" category="section-title">NetAppデータサービスを有効にする</block>
+  <block id="0e645dc9accc33c592fb30035dcb36d7" category="paragraph">システム上でNetAppデータ サービスを有効にして、データの複製、データのバックアップ、データの階層化などを行います。</block>
+  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="list-text">データを複製する</block>
+  <block id="7dfe1792c76bc1bec7f64c0b01460178" category="list-text">Cloud Volumes ONTAPシステム、 Amazon FSx for ONTAPファイルシステム、 ONTAPクラスター間でデータを複製します。クラウドとの間でデータを移動するのに役立つ 1 回限りのデータ レプリケーション、または災害復旧や長期のデータ保持に役立つ定期的なスケジュールを選択します。</block>
+  <block id="279d4e41c00858c0d60b99ca08f46b19" category="inline-link">NetApp Replicationのドキュメント</block>
+  <block id="2367e8bf588f100d84a2c29e29e8c907" category="paragraph"><block ref="2367e8bf588f100d84a2c29e29e8c907" category="inline-link-rx"></block></block>
+  <block id="b76ae88aa754ea86825b84c8badae90a" category="list-text">データのバックアップ</block>
+  <block id="32f4a4b77e8bb8a5997c35c84f226d07" category="list-text">オンプレミスのONTAPシステムからクラウド内の低コストのオブジェクト ストレージにデータをバックアップします。</block>
+  <block id="bef219d35a4468480b0ce759221cdceb" category="inline-link">NetApp Backup and Recoveryのドキュメント</block>
+  <block id="7375334c3c7c9a083e03c7131f344586" category="paragraph"><block ref="7375334c3c7c9a083e03c7131f344586" category="inline-link-rx"></block></block>
+  <block id="b62196e30035e69996a2d1d3a9d64116" category="list-text">データをスキャン、マッピング、分類する</block>
+  <block id="6c8d5da78ab1fbae76a8c2a84cdb0a7c" category="list-text">企業のオンプレミス クラスターをスキャンして、データをマッピングおよび分類し、個人情報を識別します。これにより、セキュリティとコンプライアンスのリスクが軽減され、ストレージ コストが削減され、データ移行プロジェクトが支援されます。</block>
+  <block id="e6d9434fa5832019fb3968212fe539d4" category="inline-link">NetApp Data Classificationドキュメント</block>
+  <block id="c61fc509c7d144be9b40f399aec87219" category="paragraph"><block ref="c61fc509c7d144be9b40f399aec87219" category="inline-link-rx"></block></block>
+  <block id="840a495adf1ad99ebc0b2945d0d37848" category="list-text">クラウドへのデータの階層化</block>
+  <block id="bdaba8e114e06250b64623fa35d279e2" category="list-text">ONTAPクラスターからオブジェクト ストレージに非アクティブなデータを自動的に階層化することで、データ センターをクラウドに拡張します。</block>
+  <block id="dbf638b2df9fdd6b028f3a442df69395" category="inline-link">NetApp Cloud Tieringドキュメント</block>
+  <block id="bff727b4f0c46a7987ef3660c6da5046" category="paragraph"><block ref="bff727b4f0c46a7987ef3660c6da5046" category="inline-link-rx"></block></block>
+  <block id="81e1fcaa1ce96a674b79e47a02d7f4ba" category="list-text">容量の低いクラスターを特定する</block>
+  <block id="51e044d8773594c45c2c2e9e8516f151" category="list-text">容量が低いクラスターを特定し、現在の容量と予測容量を確認します。</block>
+  <block id="65d5453513b11126367650b2ace7b545" category="inline-link">NetAppライフサイクル計画ドキュメント</block>
+  <block id="f62b0728a78dac8e9d66e3b316922630" category="paragraph"><block ref="f62b0728a78dac8e9d66e3b316922630" category="inline-link-rx"></block></block>
+  <block id="e25e74f7a3a1427deef4f7de959c877b" category="summary">NetApp Consoleエージェントを使用せずにオンプレミスのONTAPクラスタを直接検出した場合は、 NetApp Consoleでシステムを開き、 ONTAP System Manager を使用してクラスタを管理できます。</block>
+  <block id="f220a85318c5d7c44ae499953fe06af6" category="doc">NetApp Consoleで直接検出されたクラスタを管理する</block>
+  <block id="6812f9c2da4f9b9bd904f6a6b0f3a843" category="paragraph">コンソール エージェントを使用せずにオンプレミスのONTAPクラスターを直接検出した場合は、コンソールでシステムを開いてクラスターを管理し、 ONTAP System Manager にアクセスできます。</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">開始する前に</block>
+  <block id="30f10af7823f75e5b832221041c2b2c7" category="paragraph">一部の System Manager 機能はコンソールからはサポートされません。</block>
+  <block id="5258b0ad03422027351074f593328453" category="list-text">*システム* ページで、オンプレミスのONTAPシステムを選択します。</block>
+  <block id="585bfbcb83296ccf6f29d325347284b8" category="paragraph">システム アイコンは、直接検出されたクラスターを識別します。</block>
+  <block id="be8e40c832ae54c93886321cf506bda7" category="inline-image-macro">システムページに表示されるシステムアイコンのスクリーンショット</block>
+  <block id="a321eaeada5485d9a16aa7b0157e75f3" category="paragraph"><block ref="a321eaeada5485d9a16aa7b0157e75f3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d6a0741adb3101b3ac8caa5bee63eb9e" category="list-text">プロンプトが表示されたら、 ONTAP の認証情報を入力します。</block>
+  <block id="b82d5da63e23eb494fa2701700cbc876" category="paragraph">認証情報を保存しない限り、システムを開くたびにONTAP認証情報を使用してログインするように求められます。認証情報を保存するオプションがあり、これにより毎回入力する必要がなくなります。これらの認証情報は「ユーザー認証情報」ページで管理できます。場合によっては、コンソール管理者 (組織管理者ロールを持つ) がこのオプションを無効にしていて、毎回資格情報を入力するように要求することがあります。</block>
+  <block id="c4d0d6d40840ebb3d4f4f87b4309d6b6" category="inline-image-macro">ONTAPクラスタのユーザー名とパスワードを入力するプロンプトを示すスクリーンショット。</block>
+  <block id="ae0f0582f8fc53d392de639973d7187a" category="paragraph"><block ref="ae0f0582f8fc53d392de639973d7187a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="01b2e40f70aa5b1647bad39c0e42ed66" category="paragraph">ONTAPでSystem Managerを使用する際にヘルプが必要な場合は、以下を参照してください。<block ref="e4712fca3ed0fd9138bc58dbf36327e9" category="inline-link-rx"></block>ステップバイステップの手順についてはこちらをご覧ください。次のリンクでは追加のガイダンスを提供します。</block>
+  <block id="dd4fd7614d5aea1d6f631403bb514c52" category="summary">NetApp ConsoleからオンプレミスのONTAPシステムを管理する必要がなくなった場合は、そのシステムを削除します。</block>
+  <block id="76f38e29c115772351beb41864ff5c81" category="doc">NetApp ConsoleからオンプレミスのONTAPシステムを削除する</block>
+  <block id="01ec14985a4fc153f411e09eb8fe4a27" category="paragraph">コンソールからオンプレミスのONTAPシステムを管理する必要がなくなった場合は、それを削除します。</block>
+  <block id="dc939254afcbaac455a5533661695230" category="paragraph">ストレージ管理者。<block ref="f934f8c47ee938050655a3fea2497dd8" category="inline-link-macro-rx"></block></block>
+  <block id="df296b472c9a688b1de6306b097577a5" category="paragraph">システムを削除しても、 ONTAPクラスタには影響しません。いつでもコンソールから再発見できます。</block>
+  <block id="01244d40060090a6be948854713ddd90" category="list-text">*システム* ページでオンプレミスのONTAPシステムを選択します。</block>
+  <block id="7c9f32f73fa06aecdeb526cf83b2809c" category="list-text">メニューアイコンを選択し、「ワークスペースから削除」を選択します。</block>
+  <block id="b7dd0331ad4ede9488c2fd01dda69e83" category="list-text">*削除*を選択して確認します。</block>
+  <block id="6269943bbab503c57445a47b04897eaa" category="summary">NetAppテクニカル サポートでサポート ケースを開く前に、 NetAppサポート サイト アカウントをNetApp Consoleに追加し、サポートに登録する必要があります。</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">サポートに登録する</block>
+  <block id="776abbf4d80cbef17bd3c86ff37b2257" category="paragraph">NetApp Consoleとそのストレージ ソリューションおよびデータ サービスに固有のテクニカル サポートを受けるには、サポート登録が必要です。Cloud Volumes ONTAPシステムの主要なワークフローを有効にするには、サポート登録も必要です。</block>
+  <block id="ba4e23e03f4354a0f1ef2781272c8477" category="paragraph">サポートに登録しても、クラウド プロバイダー ファイル サービスに対するNetAppサポートは有効になりません。クラウド プロバイダーのファイル サービス、そのインフラストラクチャ、またはサービスを使用するソリューションに関連するテクニカル サポートについては、その製品のドキュメントの「ヘルプの取得」を参照してください。</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">サポート登録の概要</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">サポート資格を有効にするには、次の 2 つの登録形式があります。</block>
+  <block id="869a868c87f6fb61410cfd773b4f1bab" category="list-text">NetApp Consoleアカウントのシリアル番号 (コンソールの [サポート リソース] ページにある 20 桁の 960xxxxxxxxx シリアル番号) を登録します。</block>
+  <block id="be0b51de4268d87101344aa0368b4403" category="paragraph">これは、コンソール内のすべてのサービスに対する単一のサポート サブスクリプション ID として機能します。各コンソール アカウントを登録する必要があります。</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">クラウド プロバイダーのマーケットプレイスで、サブスクリプションに関連付けられたCloud Volumes ONTAPシリアル番号を登録します (これらは 20 桁の 909201xxxxxxxx シリアル番号です)。</block>
+  <block id="3cf9fb70d6921dd90583621f028a395f" category="paragraph">これらのシリアル番号は一般に _PAYGO シリアル番号_ と呼ばれ、 Cloud Volumes ONTAP の導入時にNetApp Consoleによって生成されます。</block>
+  <block id="bf516b6498e37e816d29ae43ae132f74" category="paragraph">両方のタイプのシリアル番号を登録すると、サポート チケットの開設やケースの自動生成などの機能が有効になります。登録は、以下の説明に従ってNetAppサポート サイト (NSS) アカウントをコンソールに追加することで完了します。</block>
+  <block id="ba5983207e417797fefd5b9374ab4a97" category="section-title">NetAppサポートのためにNetApp Consoleを登録する</block>
+  <block id="dcb7105ba6e3d9411b05e726848feb80" category="paragraph">サポートに登録し、サポート資格を有効にするには、 NetApp Consoleアカウントの 1 人のユーザーがNetAppサポート サイト アカウントをコンソール ログインに関連付ける必要があります。NetAppサポートに登録する方法は、 NetAppサポート サイト (NSS) アカウントをすでにお持ちかどうかによって異なります。</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSSアカウントをお持ちの既存顧客</block>
+  <block id="ed5bddb699a442b85bc1bb8e1516fe57" category="paragraph">NSS アカウントをお持ちのNetApp のお客様の場合は、コンソールからサポートに登録するだけです。</block>
+  <block id="76bc427c3d9c4b81dc353078b942f991" category="list-text">*管理* &gt; *資格情報*を選択します。</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">*ユーザー資格情報*を選択します。</block>
+  <block id="e9451600769b4bf4b20ca941ba9e6d19" category="list-text">*NSS 資格情報の追加* を選択し、 NetAppサポート サイト (NSS) の認証プロンプトに従います。</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">登録プロセスが成功したことを確認するには、[ヘルプ] アイコンを選択し、[サポート] を選択します。</block>
+  <block id="1d4ea9fd10f6cfcd6f6fe1f861d354a4" category="paragraph">*リソース* ページには、コンソール アカウントがサポートに登録されていることが表示されます。</block>
+  <block id="afe8240ca62f4b72006980ff64d371b8" category="paragraph">他のコンソール ユーザーは、ログインにNetAppサポート サイト アカウントを関連づけていない場合、同じサポート登録ステータスを表示しないことに注意してください。ただし、これはあなたのアカウントがサポートに登録されていないことを意味するものではありません。組織内の 1 人のユーザーがこれらの手順を実行していれば、アカウントは登録済みになります。</block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">既存の顧客だがNSSアカウントがない</block>
+  <block id="42eaca1e1c2d9e1f04e932eeaa6d129d" category="paragraph">既存のNetApp顧客であり、既存のライセンスとシリアル番号を持っているものの、NSS アカウントを持っていない場合は、NSS アカウントを作成し、それをコンソール ログインに関連付ける必要があります。</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetAppサポートサイト ユーザー登録フォーム</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">NetAppサポートサイトのアカウントを作成するには、<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">適切なユーザー レベル (通常は * NetApp顧客/エンド ユーザー*) を選択してください。</block>
+  <block id="bd33c4539c7d6985f6edafd4a4f2ba1d" category="list-text">上記で使用したコンソール アカウントのシリアル番号 (960xxxx) を必ずシリアル番号フィールドにコピーしてください。これにより、アカウント処理が高速化されます。</block>
+  <block id="9b1f48f88cd439b7a50fe3e76eb8a853" category="list-text">以下の手順を実行して、新しいNSSアカウントをコンソールログインに関連付けます。<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> 。</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetAppの新着情報</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">NetAppを初めて使用し、NSS アカウントをお持ちでない場合は、以下の手順に従ってください。</block>
+  <block id="e7e9f49f4584c68b9d97c578e73b7583" category="list-text">コンソールの右上にあるヘルプ アイコンを選択し、*サポート* を選択します。</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">サポート登録ページからアカウント ID シリアル番号を見つけます。</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">「サポート」が最初のオプションとしてリストされている「ヘルプ」メニューのスクリーンショット</block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetAppのサポート登録サイト</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">移動先<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block>*私は登録済みのNetApp顧客ではありません* を選択します。</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">必須フィールド（赤いアスタリスクが付いているフィールド）に入力します。</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">*製品ライン* フィールドで、*Cloud Manager* を選択し、該当する請求プロバイダーを選択します。</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">上記の手順 2 からアカウントのシリアル番号をコピーし、セキュリティ チェックを完了して、NetApp のグローバル データ プライバシー ポリシーを読んだことを確認します。</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">この安全な取引を完了するために、指定されたメールボックスに電子メールが直ちに送信されます。検証メールが数分以内に届かない場合は、必ずスパム フォルダーを確認してください。</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">メール内からアクションを確認します。</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">確認すると、リクエストがNetAppに送信され、 NetAppサポート サイトのアカウントを作成することが推奨されます。</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">上記で使用したアカウントのシリアル番号 (960xxxx) を必ずシリアル番号フィールドにコピーしてください。これにより処理速度が向上します。</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">このプロセス中に、 NetAppから連絡が来るはずです。これは、新規ユーザー向けの 1 回限りのオンボーディング演習です。</block>
+  <block id="629757336278be576456cf315303b178" category="paragraph">NetAppサポートサイトのアカウントを取得したら、以下の手順を実行して、アカウントをコンソールログインに関連付けます。<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> 。</block>
+  <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">Cloud Volumes ONTAPサポートに NSS 認証情報を関連付ける</block>
+  <block id="f22d1a855e255746a6b925a3b22f7838" category="paragraph">Cloud Volumes ONTAPの次の主要なワークフローを有効にするには、 NetAppサポート サイトの認証情報をコンソール アカウントに関連付ける必要があります。</block>
+  <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">従量課金制のCloud Volumes ONTAPシステムをサポート対象として登録する</block>
+  <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">システムのサポートを有効にし、 NetAppテクニカル サポート リソースにアクセスするには、NSS アカウントを提供する必要があります。</block>
+  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">BYOL（個人ライセンス使用）時にCloud Volumes ONTAP を導入する</block>
+  <block id="f3cd224f9506684fa3b5e2b89b2a566c" category="paragraph">コンソールがライセンス キーをアップロードし、購入した期間のサブスクリプションを有効にするには、NSS アカウントを提供する必要があります。これには、期間更新の自動更新が含まれます。</block>
+  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Cloud Volumes ONTAPソフトウェアを最新リリースにアップグレードする</block>
+  <block id="daf104544b5203a46e1580e1b8583f1f" category="paragraph">NSS 資格情報をNetApp Consoleアカウントに関連付けることは、コンソール ユーザー ログインに関連付けられている NSS アカウントとは異なります。</block>
+  <block id="5bc1315a63455544e7a917a7cc968939" category="paragraph">これらの NSS 資格情報は、特定のコンソール アカウント ID に関連付けられています。コンソール組織に属するユーザーは、*サポート &gt; NSS 管理* からこれらの資格情報にアクセスできます。</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">顧客レベルのアカウントをお持ちの場合は、1 つ以上の NSS アカウントを追加できます。</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">パートナー アカウントまたは再販業者アカウントをお持ちの場合は、1 つ以上の NSS アカウントを追加できますが、顧客レベルのアカウントと一緒に追加することはできません。</block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">*NSS管理 &gt; NSSアカウントの追加*を選択します。</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">プロンプトが表示されたら、[続行] を選択して、Microsoft ログイン ページにリダイレクトします。</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp は、サポートとライセンスに固有の認証サービスの ID プロバイダーとして Microsoft Entra ID を使用します。</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">ログイン ページで、 NetAppサポート サイトに登録した電子メール アドレスとパスワードを入力して、認証プロセスを実行します。</block>
+  <block id="7687b0a57d5cb728d9fb892dfc814715" category="paragraph">これらのアクションにより、コンソールはライセンスのダウンロード、ソフトウェア アップグレードの検証、将来のサポート登録などに NSS アカウントを使用できるようになります。</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSS アカウントは顧客レベルのアカウントである必要があります (ゲスト アカウントや一時アカウントではありません)。顧客レベルの NSS アカウントを複数持つことができます。</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">パートナー レベルのアカウントの場合、NSS アカウントは 1 つだけ存在できます。顧客レベルの NSS アカウントを追加しようとしたときに、パートナー レベルのアカウントが存在する場合は、次のエラー メッセージが表示されます。</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">「異なるタイプの NSS ユーザーがすでに存在するため、このアカウントでは NSS 顧客タイプは許可されません。」</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">既存の顧客レベルの NSS アカウントがあり、パートナー レベルのアカウントを追加しようとする場合も同様です。</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">ログインが成功すると、 NetApp はNSS ユーザー名を保存します。</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">3つの水平の点のアイコン</block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">これは、メールにマッピングされるシステム生成の ID です。*NSS管理*ページでは、<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>メニュー。</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">ログイン認証トークンを更新する必要がある場合は、<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>メニュー。</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">このオプションを使用すると、再度ログインするよう求められます。これらのアカウントのトークンは 90 日後に期限切れになることに注意してください。これを知らせる通知が投稿されます。</block>
+  <block id="e0edd80b0e8de4011b4f65a694972a94" category="summary">デジタル ウォレットを使用すると、オンプレミスの各ONTAPクラスターの契約の詳細を表示できます。まだクラスターを発見していない場合は、デジタル ウォレットから発見することもできます。</block>
+  <block id="4bbcdd6338e8631576e63f1156b1c51d" category="doc">クラスター情報と契約の詳細を表示する</block>
+  <block id="6df3323445fef3ae34ed813f1100ca8e" category="paragraph">NetApp Consoleで、オンプレミスの各ONTAPクラスターの契約詳細を表示できます。クラスターをまだ検出していない場合は、[サブスクリプションとライセンス] ページから検出することもできます。</block>
+  <block id="93214f7aede3b63ad14457a9b7aa0d59" category="paragraph">ストレージ管理者またはストレージ閲覧者。<block ref="f934f8c47ee938050655a3fea2497dd8" category="inline-link-macro-rx"></block></block>
+  <block id="f37fdd0902b8053298a78162a62ee3ca" category="inline-link">コンソールからオンプレミスのONTAPクラスタのライセンスを管理する方法の詳細</block>
+  <block id="f4eeb0c21981518065c13b60deb3e7ee" category="paragraph"><block ref="f4eeb0c21981518065c13b60deb3e7ee" category="inline-link-rx"></block></block>
+  <block id="f38bfe4e4ca70348bab102b16fa118d4" category="summary">BlueXPのオンプレミスONTAPクラスタ管理の新機能について説明します。</block>
+  <block id="d49f4ce16fe87aeaa9f7ac3eec77a6b9" category="doc">NetApp ConsoleのオンプレミスONTAPクラスタの新機能</block>
+  <block id="2377e3aaf0d094a2e815b5f4f66a56d0" category="paragraph">NetApp ConsoleでのオンプレミスのONTAPクラスタ管理の新機能について説明します。</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
+  <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">2025年5月12日</block>
+  <block id="d415b73567ff8e090cdf21c20afeaa64" category="section-title">2024年11月26日</block>
+  <block id="e5182edc3707e8e354c40ab7fa819f39" category="section-title">2024年10月7日</block>
+  <block id="9d5b3307d5a7d5905623bf21ab049bdd" category="section-title">2024年4月22日</block>
+  <block id="c94e28d852ce517312825c9ed339fc1d" category="section-title">2023年7月30日</block>
+  <block id="f73b546b2cf111d3a080443f2cd3b97f" category="section-title">2023年7月2日</block>
+  <block id="11f4fef53a39b0e83d4fdb9f922e768e" category="section-title">私の不動産からのクラスター検出</block>
+  <block id="4573c689742769edc01e3f45205fd784" category="paragraph">BlueXPログインのONTAPメール アドレスに関連付けられている ONTAP クラスターに基づいてBlueXP が事前に検出したクラスターを選択することで、*キャンバス &gt; マイ エステート* からオンプレミスのONTAPクラスターを検出できるようになりました。</block>
+  <block id="5a7621b5dce7d879d4fc86499c34c6e6" category="inline-link">マイエステートページからクラスターを発見する方法を学びます</block>
+  <block id="1951934b46748440d19112b4ffcd364d" category="paragraph"><block ref="7f676133db675e979593f57c98268fc6" category="inline-link-rx"></block> 。</block>
+  <block id="7e43a762816453626bbf35533afa1755" category="section-title">2023年5月4日</block>
+  <block id="4addbe3fd43e1a48fd8eb999d5f3b487" category="section-title">BlueXP backup and recoveryを有効にする</block>
+  <block id="f5303ee41218fc978c78d7744749c918" category="inline-link-macro">BlueXP backup and recoveryの有効化について詳しくは</block>
+  <block id="b4dac87ad594b04c0dcd76d4227b5f53" category="paragraph">ONTAP 9.13.1 以降では、コネクタを使用してクラスタを検出した場合、System Manager（詳細ビュー）を使用してBlueXP backup and recoveryを有効にすることができます。<block ref="e052ae4f2be0dcbae408a5e7fa45055e" category="inline-link-macro-rx"></block></block>
+  <block id="f3d662d271f05f454f32718233b273b8" category="section-title">ONTAPバージョンイメージとハードウェアファームウェアのアップグレード</block>
+  <block id="31599c36bc63510a259d9bd99e50d225" category="inline-link-macro">ONTAPとファームウェアのアップグレードの詳細</block>
+  <block id="8fc7dd0bb44c44f9797d86872cb017cc" category="paragraph">ONTAP 9.10.1 以降では、System Manager（詳細ビュー）を使用してONTAPバージョン イメージとハードウェア ファームウェアをアップグレードできます。最新の状態を維持するために自動アップグレードを受信するか、ローカル マシンまたはBlueXPを使用してアクセスできるサーバーから手動で更新するかを選択できます。<block ref="d994c74c98eb05bb27c8a6afc3cc2159" category="inline-link-macro-rx"></block></block>
+  <block id="09dfe5e2e7b8574b925ad72bc7875409" category="admonition">コネクタがない場合は、ローカル マシンから更新することはできませんBlueXPを使用してアクセスできるサーバーからのみ更新できます。</block>
+  <block id="102787ed6297b34a7504b527e91d01d3" category="section-title">2023年4月3日</block>
+  <block id="44a722c1e42cdb4002c75bb29403670b" category="section-title">BlueXPコンソールからの単一の検出オプション</block>
+  <block id="7023e56782327af6f409e1889ae33345" category="paragraph">BlueXPコンソールからオンプレミスのONTAPクラスターを検出すると、次の 1 つのオプションが表示されます。</block>
+  <block id="d70ed695b081fff2505f285b0540727b" category="inline-image-macro">作業環境を作成するときに利用できるオンプレミスのONTAPの検出オプションを示すスクリーンショット</block>
+  <block id="16f044147dbed62a5d79cc67ff4c4e12" category="paragraph"><block ref="16f044147dbed62a5d79cc67ff4c4e12" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3d85937cd401956877664b5f7128cc5d" category="paragraph">以前は、直接検出とコネクタを使用した検出のフローが別々にありました。これら 2 つのオプションはどちらも引き続き利用可能ですが、 1 つのフローに統合されています。</block>
+  <block id="251a667be8662557b7aba30c53380da3" category="paragraph">検出プロセスを開始すると、 BlueXP は次のようにクラスターを検出します。</block>
+  <block id="02067bb3de9c60175abe8c4b7d81c3c2" category="list-text">ONTAPクラスターに接続されたアクティブなコネクタがある場合、 BlueXP はそのコネクタを使用してクラスターを検出し、管理します。</block>
+  <block id="1f98df6cf22b8e11ecbe762c7b523860" category="list-text">コネクタがない場合、またはコネクタがONTAPクラスタに接続されていない場合、 BlueXP は自動的に直接検出および管理オプションを使用します。</block>
+  <block id="873b328fabdfb8db13a38e03c836d37b" category="inline-link">検出と管理のオプションの詳細</block>
+  <block id="558e7420e0dccdf8c6209c99cb12de8c" category="paragraph"><block ref="8f8244e4b9ad47d49332b24703323193" category="inline-link-rx"></block> 。</block>
+  <block id="1f7138998459804601fc351f8d442e29" category="section-title">2023年1月1日</block>
+  <block id="f2e4e4f7b0b864863bfac74f4383a826" category="section-title">ONTAP資格情報を保存する</block>
+  <block id="7d830b76e4f0014bb7468c045f40070d" category="paragraph">コネクタを使用せずに直接検出されたオンプレミスのONTAP作業環境を開くときに、作業環境を開くたびに入力する必要がないように、 ONTAPクラスターの資格情報を保存するオプションが追加されました。</block>
+  <block id="8a08a7490f38dacd86c415a138d60aea" category="inline-link">このオプションの詳細をご覧ください。</block>
+  <block id="a23c373384e67cc6a8bdb7e286aa5040" category="paragraph"><block ref="a23c373384e67cc6a8bdb7e286aa5040" category="inline-link-rx"></block></block>
+  <block id="83ec139c80a3d5b2f11f1a94eed47cd2" category="section-title">2022年12月4日</block>
+  <block id="b5690ceb7beb4242754890f225e479d3" category="section-title">オンプレミスのONTAPクラスターを検出する新しい方法</block>
+  <block id="c01d068bb0abdf0bdf6a772adc67e2cd" category="paragraph">コネクタを使用せずにオンプレミスのONTAPクラスターを直接検出できるようになりました。このオプションにより、System Manager 経由のみでクラスタ管理が可能になります。このタイプの作業環境では、 BlueXPデータ サービスを有効にすることはできません。</block>
+  <block id="336404297eaddf0051e1d62c3d3bb48e" category="inline-link">この検出および管理オプションの詳細</block>
+  <block id="d5ea4df2d2834605f028deaaf0d0e4b7" category="paragraph"><block ref="5b619b4d77180540fb45f8f2d3b7390b" category="inline-link-rx"></block> 。</block>
+  <block id="ee1ef6cf0f3971b44eb2abcac958fb8d" category="section-title">FlexGroupボリューム</block>
+  <block id="c712ad51a932168a912654cc42bbce87" category="paragraph">コネクタを通じて検出されたオンプレミスのONTAPクラスタの場合、 BlueXPの標準ビューに、System Manager またはONTAP CLI を通じて作成されたFlexGroupボリュームが表示されるようになりました。これらのボリュームは、複製、設定の編集、削除などによって管理することもできます。</block>
+  <block id="2907843476579cb2696e8e0e783a2a07" category="inline-image-macro">オンプレミスのONTAPクラスタのボリューム ページにFlexGroupボリュームが表示されているスクリーンショット。</block>
+  <block id="dc5b52fbc51f76a35c3e45df4d428946" category="paragraph"><block ref="dc5b52fbc51f76a35c3e45df4d428946" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c081854506aed2f757f753e779bc45f" category="paragraph">BlueXP はFlexGroupボリュームの作成をサポートしていません。  FlexGroupボリュームを作成するには、引き続き System Manager または CLI を使用する必要があります。</block>
+  <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
+  <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">新しい概要ページ</block>
+  <block id="8e41db9b51f790909ef80a064153f722" category="paragraph">オンプレミスのONTAPクラスターに関する重要な詳細を提供する新しい概要ページを導入しました。たとえば、ストレージ効率、容量配分、システム情報などの詳細を表示できるようになりました。</block>
+  <block id="d35ea0fa6a3d81047f0a36a7dfac1c07" category="paragraph">また、データ階層化、データ複製、バックアップを可能にする他のBlueXPサービスとの統合に関する詳細も表示できます。</block>
+  <block id="fba766c98683be4af93f93b5d7909f1e" category="inline-image-macro">オンプレミスのONTAPクラスターの概要ページを示すスクリーンショット。</block>
+  <block id="78b1fedbe8da959c777a0ee21f8ffd2b" category="paragraph"><block ref="78b1fedbe8da959c777a0ee21f8ffd2b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c76ff3fb4e35074fc6f04c1cb8ea02af" category="section-title">ボリュームページの再設計</block>
+  <block id="99cbfcbab5c608668044fc3849d8db46" category="paragraph">クラスター上のボリュームの概要を提供するために、ボリューム ページを再設計しました。概要には、ボリュームの合計数、プロビジョニングされた容量、使用済み容量と予約済み容量、階層化されたデータの量が表示されます。</block>
+  <block id="2f82cdfc06b6747c85937b5cceabaaee" category="inline-image-macro">オンプレミスのONTAPクラスターのボリューム ページを示すスクリーンショット。</block>
+  <block id="c88a605be9a3ab0b60a88e3190ea5a35" category="paragraph"><block ref="c88a605be9a3ab0b60a88e3190ea5a35" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f8b475a3fefebada77a30229238d0a1a" category="section-title">2022年6月7日</block>
+  <block id="ffe3ec3b5faef58a758d9449470882a0" category="section-title">新しい詳細ビュー</block>
+  <block id="5549a52d6578bcb66138c7319ef4ea11" category="paragraph">ONTAPオンプレミス クラスタの高度な管理を実行する必要がある場合は、 ONTAPシステムに付属の管理インターフェイスであるONTAP System Manager を使用して実行できます。高度な管理を行うために Cloud Manager を離れる必要がないように、System Manager インターフェイスを Cloud Manager 内に直接組み込んでいます。</block>
+  <block id="99721ad2e6d601b2966a9d9e1c7de770" category="paragraph">この詳細ビューは、9.10.0 以降を実行しているオンプレミスのONTAPクラスターでプレビューとして利用できます。今後のリリースでは、このエクスペリエンスを改良し、機能強化を追加する予定です。製品内チャットを使用してフィードバックをお送りください。</block>
+  <block id="b1f50daaafce361695fc65132af507a0" category="inline-link-macro">コネクタで検出されたクラスタを管理する方法を学びます</block>
+  <block id="2dad31dff556d88636e28fd5a3f6e2ac" category="list-text"><block ref="2dad31dff556d88636e28fd5a3f6e2ac" category="inline-link-macro-rx"></block></block>
+  <block id="ba26e4556a0f160834687982b0479336" category="section-title">2022年2月27日</block>
+  <block id="c09e2822c570628d904cc9ae1b81258c" category="section-title">デジタルウォレットに「オンプレミスONTAP」タブが追加されました</block>
+  <block id="b6476152a5181e4e223915202e88e1a9" category="paragraph">オンプレミスのONTAPクラスターのインベントリと、そのハードウェアおよびサービス契約の有効期限を表示できるようになりました。クラスターに関する追加の詳細も利用できます。</block>
+  <block id="c363f739f5bdf65a6ab4cae2b97b0d8a" category="inline-link">この重要なオンプレミス クラスタ情報を表示する方法を学びます</block>
+  <block id="708ffb45fd0b5501a732cfc35fbc5f96" category="paragraph"><block ref="ae6c564b336ca8e35b8022cee2674c1a" category="inline-link-rx"></block> 。クラスター用のNetAppサポート サイト アカウント (NSS) が必要であり、NSS 認証情報を Cloud Manager アカウントに添付する必要があります。</block>
+  <block id="ef1bf4095b622ba80ac24b48b8e45eac" category="section-title">2022年1月11日</block>
+  <block id="43129a2fa4cbb252b200eba8ad6d79d2" category="section-title">オンプレミスのONTAPクラスタ上のボリュームに追加したタグは、タグ付けサービスで使用できます。</block>
+  <block id="ba38e2fd40d303ca0ee880c6170d261e" category="paragraph">ボリュームに追加したタグは、アプリケーション テンプレート サービスのタグ付け機能に関連付けられるようになりました。これにより、リソースの管理を整理して簡素化できます。</block>
+  <block id="815875df5fff32fea9f6fdbf1cbef929" category="sidebar">NetApp ConsoleからNetApp AFFおよびFASシステムを管理して、ストレージのプロビジョニング、データの複製、重要なクラウドベースのデータ サービスの構成を行います。</block>
+  <block id="94f32f47073dfcc881de05302c1e3400" category="sidebar">NetApp Consoleを使用したオンプレミスのONTAPクラスタ管理</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">始めましょう</block>
+  <block id="7a57cd895ed6c692c6eaacc459f5c5b2" category="sidebar">オンプレミスのONTAPクラスタ管理について学ぶ</block>
+  <block id="a1ebf612d281c8e7fb16bbfa253b9627" category="sidebar">ONTAPクラスタの検出</block>
+  <block id="b35f676cd57c5084bb41b8d6a60f6523" category="sidebar">NetApp ConsoleでオンプレミスのONTAPクラスタを管理する</block>
+  <block id="86c7810a751199da86e2984eefab0cbf" category="sidebar">直接検出されたクラスターを管理する</block>
+  <block id="0178bb7fb4ec8e073676fa0da5569b44" category="sidebar">コンソールエージェントで検出されたクラスターを管理する</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">ブログとコミュニティ</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp Data Services</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetAppコミュニティ</block>
+  <block id="eaf9642551d4f86b536ff28bb60b7751" category="sidebar">NetApp ConsoleのオンプレミスONTAPクラスタ</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリース ノート</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
+  <block id="482723983a4f2af954e36ff41e567451" category="sidebar">既知の制限事項</block>
+  <block id="54b737e9455930faa1699b8dc97ccd5d" category="sidebar">オンプレミスのONTAPクラスタ管理について学ぶ</block>
+  <block id="c5fbee6586294d81141f8dd158707985" category="sidebar">オンプレミスのONTAPクラスタの検出</block>
+  <block id="cfa980e1df20173742498c19249c0f50" category="sidebar">オンプレミスのONTAPクラスタを管理する</block>
+  <block id="9783331c17eb2368b5f57b943b56dd4b" category="sidebar">コンソールエージェントで検出されたクラスターを管理する</block>
+  <block id="d3db502b671c154b98dfced0b397de36" category="sidebar">クラスター情報と契約の詳細を表示する</block>
+  <block id="3421bf5b6f922329d7ac7ff73a34370f" category="sidebar">オンプレミスのONTAPシステムを削除する</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識とサポート</block>
+</blocks>

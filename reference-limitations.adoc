@@ -4,7 +4,7 @@ permalink: reference-limitations.html
 keywords: limitations, system manager, unsupported features, on-premises ONTAP in NetApp Console 
 summary: 今回のリリースでサポートされていない、または今回のリリースでは正常に機能しないプラットフォーム、デバイス、機能が記載されています。これらの制限事項をよく確認してください。 
 ---
-= NetAppコンソールでオンプレミスのONTAPクラスタを管理する際の既知の制限
+= NetApp ConsoleでオンプレミスのONTAPクラスタを管理する際の既知の制限
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -49,7 +49,7 @@ SAML 認証が設定されているオンプレミスのONTAPクラスターは�
 +
 直接検出オプションを使用すると、コンソールでシステムを開くたびに、 ONTAP認証情報を使用してログインするように求められます。
 
-* NetAppバックアップおよびリカバリのアクティベーション
+* NetApp Backup and Recoveryのアクティベーション
 +
 System Manager からのバックアップとリカバリを有効にするには、クラスターのバージョンが 9.13.1 である必要があります。
 

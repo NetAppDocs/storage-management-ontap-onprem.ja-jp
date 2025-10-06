@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-remove-on-prem.html 
 keywords: ontap, cluster, remove, delete, remove ontap cluster, remove onprem, delete cluster, delete working environment, remove working environment, storage admin, netapp console, console remove system 
-summary: NetAppコンソールからオンプレミスのONTAPシステムを管理する必要がなくなった場合は、そのシステムを削除します。 
+summary: NetApp ConsoleからオンプレミスのONTAPシステムを管理する必要がなくなった場合は、そのシステムを削除します。 
 ---
-= NetAppコンソールからオンプレミスのONTAPシステムを削除する
+= NetApp ConsoleからオンプレミスのONTAPシステムを削除する
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -17,7 +17,7 @@ summary: NetAppコンソールからオンプレミスのONTAPシステムを管
 コンソールからオンプレミスのONTAPシステムを管理する必要がなくなった場合は、それを削除します。
 
 .必要なコンソールロール:
-ストレージ管理者。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["NetAppコンソールのアクセス ロールについて学習します。"^]
+ストレージ管理者。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["NetApp Consoleのアクセス ロールについて学習します。"^]
 
 システムを削除しても、 ONTAPクラスタには影響しません。いつでもコンソールから再発見できます。
 
