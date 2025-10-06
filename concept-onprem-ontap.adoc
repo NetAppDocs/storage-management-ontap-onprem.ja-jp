@@ -1,0 +1,51 @@
+---
+sidebar: sidebar 
+permalink: concept-onprem-ontap.html 
+keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet, subscriptios, licenses, bluexp 
+summary: AFF/ FASコントローラおよびONTAP Select上で実行されているONTAPクラスターをNetAppコンソールから管理できます。オンプレミスのONTAPシステムをNetAppコンソールに追加すると、すべてのストレージとデータ資産を単一のインターフェースから管理できるようになります。 
+---
+= NetAppコンソールでのオンプレミスONTAPクラスタ管理について学ぶ
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+AFF/ FASコントローラおよびONTAP Select上で実行されているONTAPクラスターをNetAppコンソールから管理できます。オンプレミスのONTAPシステムをコンソールに追加すると、すべてのストレージとデータ資産を一元管理できるようになります。
+
+
+
+== NetAppコンソール
+
+NetAppコンソールは、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとデータ サービスの集中管理を提供します。NetAppデータ サービスにアクセスして使用するには、コンソールが必要です。管理インターフェースとして、1 つのインターフェースから多数のストレージ リソースを管理できます。コンソール管理者は、企業内のすべてのシステムのストレージとサービスへのアクセスを制御できます。
+
+NetAppコンソールの使用を開始するためにライセンスやサブスクリプションは必要ありません。ストレージ システムまたはNetAppデータ サービスへの接続を確保するためにクラウドにコンソール エージェントを展開する必要がある場合にのみ料金が発生します。ただし、コンソールからアクセスできる一部のNetAppデータ サービスは、ライセンスまたはサブスクリプションベースです。
+
+詳細はこちら https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html["NetAppコンソール"]。
+
+
+
+== 機能
+
+* NFSおよびCIFSボリュームを管理する
+* コンソールから任意の管理対象クラスタのONTAP System Manager にアクセスします。
+* 分析と制御による健全性とパフォーマンスの観測性を実現
+* データ サービスを使用して、データの複製、バックアップ、スキャン、分類、階層化を行います。
+* コンソールでハードウェアとソフトウェアの契約ステータス情報を表示する
+
+
+
+
+== 料金
+
+コストがかかる場合があります。コストは次のような要素によって異なります。
+
+* コンソール エージェントをデプロイしてクラスターを検出および管理する場所。
++
+コンソール エージェントは、クラウドまたはオンプレミスにインストールできます。クラウドにコンソール エージェントをインストールすると、コストが発生します。
+
+* NetApp Backup and Recovery、 NetApp Ransomware Resilience などのNetAppデータ サービスを使用しているかどうか。
+

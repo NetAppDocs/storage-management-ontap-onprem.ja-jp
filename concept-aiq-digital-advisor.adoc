@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: concept-aiq-digital-advisor.html 
+keywords: concepts, active iq digital advisor, ontap 
+summary: デジタル アドバイザーを使用すると、 ONTAPクラスターの運用、セキュリティ、パフォーマンスを最適化できます。 
+---
+= NetApp Digital Advisorを使用してクラスタを最適化する
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp Digital Advisor を使用すると、 ONTAPクラスタの運用、セキュリティ、パフォーマンスを最適化できます。
+
+
+
+== 機能
+
+Digital Advisorを使用すると、ストレージ システムの全体的なステータス、システムの健全性に関する概要情報、インベントリ、計画、アップグレード、貴重な洞察をウォッチリスト レベルで表示できます。
+
+* ストレージシステムの健全性を分析して最適化します
+* ストレージシステムに対するあらゆるリスクと、リスクを軽減するための対策に関する洞察を得る
+* パフォーマンスデータをグラフ形式で表示して、ストレージデバイスのパフォーマンスを分析します
+* 90% の容量を超えた、または 90% の容量に近づいているシステムの詳細を取得します。
+* 有効期限が切れた、または今後 6 か月以内に有効期限が近づくハードウェアとソフトウェアに関する情報を取得します。
+* Ansibleを使用してストレージシステムソフトウェアをアップグレードし、 ONTAPファームウェアを更新します。
+
+
+
+
+== サポートされているONTAPシステム
+
+Digital Advisor は、 NetAppサポート サイト (NSS) アカウントに関連付けられているすべてのオンプレミスONTAPシステムとCloud Volumes ONTAPシステムに関する情報を提供します。
+
+
+
+== 詳細情報
+
+https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["Digital Advisorのドキュメント"^]

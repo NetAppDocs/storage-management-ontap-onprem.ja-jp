@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: task-manage-ontap-direct.html 
+keywords: direct discovery, direct, system manager, local, local discovery, 
+summary: NetAppコンソール エージェントを使用せずにオンプレミスのONTAPクラスタを直接検出した場合は、 NetAppコンソールでシステムを開き、 ONTAP System Manager を使用してクラスタを管理できます。 
+---
+= NetAppコンソールで直接検出されたクラスタを管理する
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+コンソール エージェントを使用せずにオンプレミスのONTAPクラスターを直接検出した場合は、コンソールでシステムを開いてクラスターを管理し、 ONTAP System Manager にアクセスできます。
+
+.必要なコンソールロール:
+ストレージ管理者またはシステムヘルススペシャリスト。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["コンソール アクセス ロールについて学習します。"^]
+
+.開始する前に
+コンソールにアクセスするために使用しているコンピューターには、プライベート ネットワーク内の他のリソースへの接続を提供するのと同様に、オンプレミスのONTAPクラスターへのネットワーク接続が必要です。
+
+.制限事項
+一部の System Manager 機能はコンソールからはサポートされません。
+
+link:reference-limitations.html["制限事項のリストを確認する"] 。
+
+.手順
+. *システム* ページで、オンプレミスのONTAPシステムを選択します。
++
+システム アイコンは、直接検出されたクラスターを識別します。
+
++
+image:screenshot-direct-discovery-we.png["システムページに表示されるシステムアイコンのスクリーンショット"]
+
+. プロンプトが表示されたら、 ONTAP の認証情報を入力します。
++
+認証情報を保存しない限り、システムを開くたびにONTAP認証情報を使用してログインするように求められます。認証情報を保存するオプションがあり、これにより毎回入力する必要がなくなります。これらの認証情報は「ユーザー認証情報」ページで管理できます。場合によっては、コンソール管理者 (組織管理者ロールを持つ) がこのオプションを無効にしていて、毎回資格情報を入力するように要求することがあります。
+
++
+image:screenshot-credentials.png["ONTAPクラスタのユーザー名とパスワードを入力するプロンプトを示すスクリーンショット。"]
+
+. System Manager を使用してONTAPを管理します。
++
+ONTAPでSystem Managerを使用する際にヘルプが必要な場合は、以下を参照してください。 https://docs.netapp.com/us-en/ontap/index.html["ONTAPのドキュメント"^]ステップバイステップの手順についてはこちらをご覧ください。次のリンクでは追加のガイダンスを提供します。
+
++
+** https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["ボリュームとLUNの管理"^]
+** https://docs.netapp.com/us-en/ontap/network-manage-overview-concept.html["ネットワーク管理"^]
+** https://docs.netapp.com/us-en/ontap/concept_dp_overview.html["データ保護"^]
+
+
+

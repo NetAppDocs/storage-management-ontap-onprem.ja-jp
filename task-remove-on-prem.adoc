@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: task-remove-on-prem.html 
+keywords: ontap, cluster, remove, delete, remove ontap cluster, remove onprem, delete cluster, delete working environment, remove working environment, storage admin, netapp console, console remove system 
+summary: NetAppコンソールからオンプレミスのONTAPシステムを管理する必要がなくなった場合は、そのシステムを削除します。 
+---
+= NetAppコンソールからオンプレミスのONTAPシステムを削除する
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+コンソールからオンプレミスのONTAPシステムを管理する必要がなくなった場合は、それを削除します。
+
+.必要なコンソールロール:
+ストレージ管理者。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["NetAppコンソールのアクセス ロールについて学習します。"^]
+
+システムを削除しても、 ONTAPクラスタには影響しません。いつでもコンソールから再発見できます。
+
+.手順
+. ナビゲーション メニューから、*ストレージ > 管理* を選択します。
+. *システム* ページでオンプレミスのONTAPシステムを選択します。
+. メニューアイコンを選択し、「ワークスペースから削除」を選択します。
+. *削除*を選択して確認します。
+

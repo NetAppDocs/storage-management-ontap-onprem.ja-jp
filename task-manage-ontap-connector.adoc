@@ -1,0 +1,205 @@
+---
+sidebar: sidebar 
+permalink: task-manage-ontap-connector.html 
+keywords: system manager, advanced view, access system manager, load system manager, use system manager, flexgroup, flexgroup volumes, create flexgroup volume 
+summary: コンソール エージェントを使用してオンプレミスのONTAPクラスターを検出した場合は、標準ビューからボリュームを作成し、詳細ビューから System Manager を使用して、 NetAppデータ サービスを有効にすることができます。 
+---
+= コンソールエージェントで検出されたクラスターを管理する
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+コンソール エージェントを使用してオンプレミスのONTAPクラスターを検出した場合は、 NetAppコンソールから直接ボリュームを作成し、高度な管理のためにONTAP System Manager に (コンソールから直接) アクセスし、 NetAppデータ サービスを有効にすることができます。
+
+.必要なNetAppコンソール ロール:
+ストレージ管理者またはシステムヘルススペシャリスト。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["コンソール アクセス ロールについて学習します。"^]
+
+*システム* ページでは、コンソール エージェントで検出されたクラスターのシステム アイコンは次のようになります。
+
+image:screenshot-connector-we.png["コンソール エージェントでクラスターが検出されたときに表示されるシステム アイコンのスクリーンショット。"]
+
+システムを直接検出した場合、システム アイコンに「Direct」という単語が表示されます。
+
+
+
+== NetAppコンソールからFlexVolボリュームを作成する
+
+コンソール エージェントを使用してオンプレミスのONTAPクラスタをコンソールに追加した後、コンソールから直接FlexVolボリュームをプロビジョニングおよび管理できます。
+
+コンソールを使用すると、既存のアグリゲート上に NFS または CIFS ボリュームを作成できます。ネイティブ コンソール ページからオンプレミスのONTAPクラスターに新しいアグリゲートを作成することはできません。ただし、コンソールからそれぞれのONTAP System Manager にアクセスしてアグリゲートを作成することはできます。
+
+.手順
+. ナビゲーション メニューから、*ストレージ > 管理* を選択します。
+. *システム* ページで、ボリュームをプロビジョニングするオンプレミスのONTAPクラスターを選択します。
+. *ボリューム > ボリュームの追加*を選択します。
+. ウィザードの手順に従ってボリュームを作成します。
++
+.. *詳細、保護、タグ*: ボリュームの名前やサイズなどの詳細情報を入力し、スナップショット ポリシーを選択します。
++
+このページの一部のフィールドは説明不要です。次のリストでは、ガイダンスが必要になる可能性のあるフィールドについて説明します。
+
++
+[cols="2,6"]
+|===
+| フィールド | 説明 
+
+
+| サイズ | 最大サイズは、シン プロビジョニングを有効にするかどうかによって異なり、シン プロビジョニングを有効にすると、使用可能な物理ストレージよりも大きなボリュームを作成できます。 
+
+
+| スナップショットポリシー | スナップショット コピー ポリシーは、 NetAppスナップショット コピーが作成される頻度と数を定義します。 NetAppスナップショット コピーは、パフォーマンスに影響を与えず、最小限のストレージしか必要としない、ポイントインタイム ファイル システム イメージです。デフォルトのポリシーを選択するか、ポリシーなしを選択できます。  Microsoft SQL Server の一時データベース (tempdb) などの一時データの場合は、none を選択できます。 
+|===
+.. *プロトコル*: ボリュームのプロトコル (NFS、CIFS、または iSCSI) を選択し、ボリュームのアクセス制御または権限を設定します。
++
+サーバーなしで CIFS を選択した場合、Active Directory またはワークグループを使用してサーバーを構成するように求めるプロンプトが表示されます。
+
++
+次のリストでは、ガイダンスが必要になる可能性のあるフィールドについて説明します。
+
++
+[cols="2,6"]
+|===
+| フィールド | 説明 
+
+
+| アクセス制御 | NFS エクスポート ポリシーは、ボリュームにアクセスできるサブネット内のクライアントを定義します。デフォルトでは、コンソールはサブネット内のすべてのインスタンスへのアクセスを提供する値を入力します。 
+
+
+| 権限とユーザー/グループ | これらのフィールドを使用すると、ユーザーとグループの SMB 共有へのアクセス レベル (アクセス制御リストまたは ACL とも呼ばれます) を制御できます。ローカルまたはドメインの Windows ユーザーまたはグループ、あるいは UNIX ユーザーまたはグループを指定できます。ドメイン Windows ユーザー名を指定する場合は、domain\username の形式を使用してユーザーのドメインを含める必要があります。 
+|===
+.. *使用プロファイル*: 必要なストレージの合計量を削減するために、ボリューム上のストレージ効率機能を有効にするか無効にするかを選択します。
+.. *確認*: ボリュームの詳細を確認し、[*追加*] を選択します。
+
+
+
+
+
+
+== NetAppコンソールAPIを使用してFlexGroupボリュームを作成する
+
+NetAppコンソール API を使用してFlexGroupボリュームを作成できます。FlexGroupボリュームは、ハイパフォーマンスと自動負荷分散を実現するスケールアウト ボリュームです。
+
+* https://docs.netapp.com/us-en/bluexp-automation/cm/wf_onprem_flexgroup_ontap_create_vol.html["APIを使用してFlexGroupボリュームを作成する方法を学びます"^]
+* https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html["FlexGroupボリュームとは何かを学ぶ"^]
+
+
+
+
+== NetAppコンソールからONTAP System Managerにアクセスする
+
+コンソール内から直接ONTAP System Manager インターフェイスにアクセスできます。
+
+
+
+=== 機能
+
+コンソールからONTAP System Manager にアクセスすると、追加の管理機能にアクセスできます。
+
+* 高度なストレージ管理
++
+整合性グループ、共有、qtree、クォータ、およびストレージ VM を管理します。
+
+* ネットワーク管理
++
+IPspace、ネットワーク インターフェイス、ポートセット、およびイーサネット ポートを管理します。
+
+* イベントと仕事
++
+イベント ログ、システム アラート、ジョブ、監査ログを表示します。
+
+* 高度なデータ保護
++
+ストレージ VM、LUN、整合性グループを保護します。
+
+* ホスト管理
++
+SAN イニシエーター グループと NFS クライアントを設定します。
+
+
+
+
+
+=== サポートされている構成
+
+System Manager による高度な管理は、9.10.0 以降を実行しているオンプレミスのONTAPクラスターでサポートされます。
+
+System Manager の統合は、GovCloud リージョンまたはアウトバウンド インターネット アクセスがないリージョンではサポートされません。
+
+
+
+=== 制限事項
+
+コンソール経由でONTAP System Manager にアクセスする場合、オンプレミスのONTAPクラスターではいくつかの System Manager 機能がサポートされません。
+
+link:reference-limitations.html["制限事項のリストを確認する"] 。
+
+
+
+=== NetAppコンソールからONTAP System Managerにアクセスする
+
+システムのシステム マネージャーを開きます。
+
+.手順
+. *システム* ページで、ボリュームをプロビジョニングするオンプレミスのONTAPクラスターを選択します。
+. 右側のパネルの「サービス」の下で、「システム マネージャー」を見つけて、「開く」を選択します。
+. 確認メッセージが表示された場合は、内容を読んで「閉じる」を選択します。
+. System Manager を使用してONTAPを管理します。
+. 必要に応じて、[*標準ビューに切り替える*] を選択して、コンソールを介した標準管理に戻ります。
++
+image:screenshot-standard-view.png["標準ビューへの切り替えオプションが表示されているオンプレミスのONTAPシステムのスクリーンショット。"]
+
+
+
+
+
+=== システムマネージャーのヘルプを取得する
+
+ONTAPでSystem Managerを使用する際にヘルプが必要な場合は、以下を参照してください。 https://docs.netapp.com/us-en/ontap/index.html["ONTAPのドキュメント"^]ステップバイステップの手順についてはこちらをご覧ください。役立つかもしれないリンクをいくつか紹介します。
+
+* https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["ボリュームとLUNの管理"^]
+* https://docs.netapp.com/us-en/ontap/network-manage-overview-concept.html["ネットワーク管理"^]
+* https://docs.netapp.com/us-en/ontap/concept_dp_overview.html["データ保護"^]
+
+
+
+
+== NetAppデータサービスを有効にする
+
+システム上でNetAppデータ サービスを有効にして、データの複製、データのバックアップ、データの階層化などを行います。
+
+データを複製する:: Cloud Volumes ONTAPシステム、 Amazon FSx for ONTAPファイルシステム、 ONTAPクラスター間でデータを複製します。クラウドとの間でデータを移動するのに役立つ 1 回限りのデータ レプリケーション、または災害復旧や長期のデータ保持に役立つ定期的なスケジュールを選択します。
++
+--
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["NetAppレプリケーションのドキュメント"^]
+
+--
+データのバックアップ:: オンプレミスのONTAPシステムからクラウド内の低コストのオブジェクト ストレージにデータをバックアップします。
++
+--
+https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-backup-to-cloud.html["NetAppバックアップおよびリカバリのドキュメント"^]
+
+--
+データをスキャン、マッピング、分類する:: 企業のオンプレミス クラスターをスキャンして、データをマッピングおよび分類し、個人情報を識別します。これにより、セキュリティとコンプライアンスのリスクが軽減され、ストレージ コストが削減され、データ移行プロジェクトが支援されます。
++
+--
+https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["NetAppデータ分類ドキュメント"^]
+
+--
+クラウドへのデータの階層化:: ONTAPクラスターからオブジェクト ストレージに非アクティブなデータを自動的に階層化することで、データ センターをクラウドに拡張します。
++
+--
+https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["NetAppクラウド階層化ドキュメント"^]
+
+--
+容量の低いクラスターを特定する:: 容量が低いクラスターを特定し、現在の容量と予測容量を確認します。
++
+--
+https://docs.netapp.com/us-en/bluexp-economic-efficiency/index.html["NetAppライフサイクル計画ドキュメント"^]
+
+--
+

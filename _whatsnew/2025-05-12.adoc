@@ -1,0 +1,9 @@
+= BlueXPアクセスロールが必要
+:allow-uri-read: 
+
+
+
+
+=== BlueXPアクセスロールが必要
+
+オンプレミスのONTAPクラスターを表示、検出、または管理するには、組織管理者、フォルダーまたはプロジェクト管理者、ストレージ管理者、またはシステム ヘルス スペシャリストのいずれかのアクセス ロールが必要になります。 link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["アクセス ロールについて学習します。"^]

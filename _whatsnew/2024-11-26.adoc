@@ -1,0 +1,13 @@
+= プライベートモードを備えたASA r2 システムのサポート
+:allow-uri-read: 
+
+
+
+
+=== プライベートモードを備えたASA r2 システムのサポート
+
+BlueXP をプライベート モードで使用するときに、 NetApp ASA r2 システムを検出できるようになりました。このサポートは、 BlueXPの 3.9.46 プライベート モード リリース以降で利用できます。
+
+* https://docs.netapp.com/us-en/asa-r2/index.html["ASA r2システムの詳細"^]
+* https://docs.netapp.com/us-en/console-setup-admin/concept-modes.html["BlueXPの展開モードについて学ぶ"^]
+

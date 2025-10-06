@@ -1,0 +1,242 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, on-prem' 
+summary: BlueXPのオンプレミスONTAPクラスタ管理の新機能について説明します。 
+---
+= NetAppコンソールのオンプレミスONTAPクラスタの新機能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetAppコンソールでのオンプレミスのONTAPクラスタ管理の新機能について説明します。
+
+
+
+== 2025年10月6日
+
+
+
+=== BlueXPはNetAppコンソールになりました
+
+NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+
+変更内容の詳細については、link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+
+
+
+== 2025年5月12日
+
+
+
+=== BlueXPアクセスロールが必要
+
+オンプレミスのONTAPクラスターを表示、検出、または管理するには、組織管理者、フォルダーまたはプロジェクト管理者、ストレージ管理者、またはシステム ヘルス スペシャリストのいずれかのアクセス ロールが必要になります。 link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["アクセス ロールについて学習します。"^]
+
+
+
+== 2024年11月26日
+
+
+
+=== プライベートモードを備えたASA r2 システムのサポート
+
+BlueXP をプライベート モードで使用するときに、 NetApp ASA r2 システムを検出できるようになりました。このサポートは、 BlueXPの 3.9.46 プライベート モード リリース以降で利用できます。
+
+* https://docs.netapp.com/us-en/asa-r2/index.html["ASA r2システムの詳細"^]
+* https://docs.netapp.com/us-en/console-setup-admin/concept-modes.html["BlueXPの展開モードについて学ぶ"^]
+
+
+
+
+== 2024年10月7日
+
+
+
+=== ASA r2 システムのサポート
+
+BlueXP を標準モードまたは制限モードで使用する場合、 BlueXPでNetApp ASA r2 システムを検出できるようになりました。  NetApp ASA r2 システムを検出し、作業環境を開くと、System Manager に直接移動します。
+
+ASA r2 システムでは他の管理オプションは利用できません。標準ビューを使用することはできず、 BlueXPサービスを有効にすることもできません。
+
+BlueXP をプライベート モードで使用する場合、 ASA r2 システムの検出はサポートされません。
+
+* https://docs.netapp.com/us-en/asa-r2/index.html["ASA r2システムの詳細"^]
+* https://docs.netapp.com/us-en/console-setup-admin/concept-modes.html["BlueXPの展開モードについて学ぶ"^]
+
+
+
+
+== 2024年4月22日
+
+
+
+=== ボリュームテンプレートはサポートされなくなりました
+
+テンプレートからボリュームを作成することはできなくなりました。このアクションは、利用できなくなったBlueXP修復サービスに関連付けられていました。
+
+
+
+== 30 2023年7月
+
+
+
+=== FlexGroupボリュームを作成する
+
+コネクタを使用してクラスターを管理している場合は、 BlueXP API を使用してFlexGroupボリュームを作成できるようになりました。
+
+* https://docs.netapp.com/us-en/bluexp-automation/cm/wf_onprem_flexgroup_ontap_create_vol.html["FlexGroupボリュームの作成方法を学ぶ"^]
+* https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html["FlexGroupボリュームとは何かを学ぶ"^]
+
+
+
+
+== 2 2023年7月
+
+
+
+=== 私の不動産からのクラスター検出
+
+BlueXPログインの電子メール アドレスに関連付けられているONTAPクラスターに基づいてBlueXP が事前に検出したクラスターを選択することで、*キャンバス > マイ エステート* からオンプレミスのONTAPクラスターを検出できるようになりました。
+
+https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-discovering-ontap.html#add-a-pre-discovered-cluster["マイエステートページからクラスターを発見する方法を学びます"] 。
+
+
+
+== 2023年5月4日
+
+
+
+=== BlueXP backup and recoveryを有効にする
+
+ONTAP 9.13.1 以降では、コネクタを使用してクラスタを検出した場合、System Manager（詳細ビュー）を使用してBlueXP backup and recoveryを有効にすることができます。link:https://docs.netapp.com/us-en/ontap/task_cloud_backup_data_using_cbs.html["BlueXP backup and recoveryの有効化について詳しくは"^]
+
+
+
+=== ONTAPバージョンイメージとハードウェアファームウェアのアップグレード
+
+ONTAP 9.10.1 以降では、System Manager（詳細ビュー）を使用してONTAPバージョン イメージとハードウェア ファームウェアをアップグレードできます。最新の状態を維持するために自動アップグレードを受信するか、ローカル マシンまたはBlueXPを使用してアクセスできるサーバーから手動で更新するかを選択できます。link:https://docs.netapp.com/us-en/ontap/task_admin_update_firmware.html#prepare-for-firmware-update["ONTAPとファームウェアのアップグレードの詳細"^]
+
+
+NOTE: コネクタがない場合は、ローカル マシンから更新することはできませんBlueXPを使用してアクセスできるサーバーからのみ更新できます。
+
+
+
+== 2023年4月3日
+
+
+
+=== BlueXPコンソールからの単一の検出オプション
+
+BlueXPコンソールからオンプレミスのONTAPクラスターを検出すると、次の 1 つのオプションが表示されます。
+
+image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/media/screenshot-discover-on-prem-ontap.png["作業環境を作成するときに利用できるオンプレミスのONTAPの検出オプションを示すスクリーンショット"]
+
+以前は、直接検出とコネクタを使用した検出のフローが別々でした。これら 2 つのオプションはどちらも引き続き利用可能ですが、単一のフローに統合されています。
+
+検出プロセスを開始すると、 BlueXP は次のようにクラスターを検出します。
+
+* ONTAPクラスターに接続されたアクティブなコネクタがある場合、 BlueXP はそのコネクタを使用してクラスターを検出し、管理します。
+* コネクタがない場合、またはコネクタがONTAPクラスタに接続されていない場合、 BlueXP は自動的に直接検出および管理オプションを使用します。
+
+
+https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-discovering-ontap.html["検出と管理のオプションの詳細"] 。
+
+
+
+== 2023年1月1日
+
+
+
+=== ONTAP資格情報を保存する
+
+コネクタを使用せずに直接検出されたオンプレミスのONTAP作業環境を開くときに、作業環境を開くたびに入力する必要がないように、 ONTAPクラスターの資格情報を保存するオプションが追加されました。
+
+https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-manage-ontap-direct.html["このオプションの詳細をご覧ください。"]
+
+
+
+== 2022年12月4日
+
+
+
+=== オンプレミスのONTAPクラスターを検出する新しい方法
+
+コネクタを使用せずにオンプレミスのONTAPクラスターを直接検出できるようになりました。このオプションにより、System Manager 経由のみでクラスタ管理が可能になります。このタイプの作業環境では、 BlueXPデータ サービスを有効にすることはできません。
+
+https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-discovering-ontap.html["この検出および管理オプションの詳細"] 。
+
+
+
+=== FlexGroupボリューム
+
+コネクタを通じて検出されたオンプレミスのONTAPクラスタの場合、 BlueXPの標準ビューに、System Manager またはONTAP CLI を通じて作成されたFlexGroupボリュームが表示されるようになりました。これらのボリュームは、複製、設定の編集、削除などによって管理することもできます。
+
+image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/media/screenshot-flexgroup-volumes.png["オンプレミスのONTAPクラスタのボリューム ページにFlexGroupボリュームが表示されているスクリーンショット。"]
+
+BlueXP はFlexGroupボリュームの作成をサポートしていません。  FlexGroupボリュームを作成するには、引き続き System Manager または CLI を使用する必要があります。
+
+
+
+== 2022年9月18日
+
+
+
+=== 新しい概要ページ
+
+オンプレミスのONTAPクラスターに関する重要な詳細を提供する新しい概要ページを導入しました。たとえば、ストレージ効率、容量配分、システム情報などの詳細を表示できるようになりました。
+
+また、データ階層化、データ複製、バックアップを可能にする他のBlueXPサービスとの統合に関する詳細も表示できます。
+
+image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/media/screenshot-overview.png["オンプレミスのONTAPクラスターの概要ページを示すスクリーンショット。"]
+
+
+
+=== ボリュームページの再設計
+
+クラスター上のボリュームの概要を提供するために、ボリューム ページを再設計しました。概要には、ボリュームの合計数、プロビジョニングされた容量、使用済み容量と予約済み容量、階層化されたデータの量が表示されます。
+
+image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/media/screenshot-volumes.png["オンプレミスのONTAPクラスターのボリューム ページを示すスクリーンショット。"]
+
+
+
+== 2022年6月7日
+
+
+
+=== 新しい詳細ビュー
+
+ONTAPオンプレミス クラスタの高度な管理を実行する必要がある場合は、 ONTAPシステムに付属の管理インターフェイスであるONTAP System Manager を使用して実行できます。高度な管理のために Cloud Manager を離れる必要がないように、System Manager インターフェイスを Cloud Manager 内に直接組み込んでいます。
+
+この詳細ビューは、9.10.0 以降を実行しているオンプレミスのONTAPクラスターでプレビューとして利用できます。今後のリリースでは、このエクスペリエンスを改良し、機能強化を追加する予定です。製品内チャットを使用してフィードバックをお送りください。
+
+* link:task-manage-ontap-direct.html["直接検出されたクラスターを管理する方法を学ぶ"]
+* link:task-manage-ontap-connector.html["コネクタで検出されたクラスタを管理する方法を学びます"]
+
+
+
+
+== 2022年2月27日
+
+
+
+=== デジタルウォレットに「オンプレミスONTAP」タブが追加されました
+
+オンプレミスのONTAPクラスターのインベントリと、そのハードウェアおよびサービス契約の有効期限を表示できるようになりました。クラスターに関する追加の詳細も利用できます。
+
+https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-view-cluster-info.html["この重要なオンプレミス クラスタ情報を表示する方法を学びます"] 。クラスター用のNetAppサポート サイト アカウント (NSS) が必要であり、NSS 認証情報を Cloud Manager アカウントに添付する必要があります。
+
+
+
+== 2022年1月11日
+
+
+
+=== オンプレミスのONTAPクラスタ上のボリュームに追加したタグは、タグ付けサービスで使用できます。
+
+ボリュームに追加したタグは、アプリケーション テンプレート サービスのタグ付け機能に関連付けられるようになりました。これにより、リソースの管理を整理して簡素化できます。
