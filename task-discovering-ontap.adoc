@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-discovering-ontap.html 
-keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, roles, dubscriptions, licenses, digital advisor 
+keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, roles, subscriptions, licenses, digital advisor 
 summary: NetApp ConsoleからオンプレミスのONTAPクラスターを検出し、コンソールから利用できるONTAP System Manager を使用してボリュームの管理と高度な管理を開始できるようにします。 
 ---
 = NetApp ConsoleでオンプレミスのONTAPクラスターを検出する
@@ -25,7 +25,7 @@ NetApp ConsoleからオンプレミスのONTAPクラスターを検出し、コ�
 
 オンプレミスのONTAPクラスターをコンソールに追加するには、2 つの方法があります。選択方法は、組織にコンソール エージェントがインストールされているかどうかによって異なります。
 
-コンソールエージェントを使用した検出と管理:: このオプションを使用すると、次の機能を使用してONTAP 8.3 以降を実行しているクラスタを管理できます。
+コンソールエージェントを使用した検出と管理:: このオプションを使用すると、次の機能を使用してONTAPを実行しているクラスターを管理できます。
 +
 --
 * NetApp Consoleを通じて基本的なボリューム操作をネイティブに提供します

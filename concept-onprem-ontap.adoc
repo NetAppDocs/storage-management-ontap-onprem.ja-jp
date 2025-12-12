@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept-onprem-ontap.html 
-keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet, subscriptios, licenses, bluexp 
+keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet, subscriptions, licenses, bluexp 
 summary: AFF/ FASコントローラおよびONTAP Select上で実行されているONTAPクラスターをNetApp Consoleから管理できます。オンプレミスのONTAPシステムをNetApp Consoleに追加すると、すべてのストレージとデータ資産を単一のインターフェースから管理できるようになります。 
 ---
 = NetApp ConsoleでのオンプレミスONTAPクラスタ管理について学ぶ

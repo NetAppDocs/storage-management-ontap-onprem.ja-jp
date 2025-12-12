@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-view-cluster-info.html 
 keywords: software contract, hardware contract, contracts, expiration date, expired, software contract 
-summary: デジタル ウォレットを使用すると、オンプレミスの各ONTAPクラスターの契約の詳細を表示できます。まだクラスターを発見していない場合は、デジタル ウォレットから発見することもできます。 
+summary: *サブスクリプションとライセンス* ページから、オンプレミスの各ONTAPクラスターの契約の詳細を表示できます。 
 ---
 = クラスター情報と契約の詳細を表示する
 :hardbreaks:
@@ -14,9 +14,18 @@ summary: デジタル ウォレットを使用すると、オンプレミスの�
 
 
 [role="lead"]
-NetApp Consoleで、オンプレミスの各ONTAPクラスターの契約詳細を表示できます。クラスターをまだ検出していない場合は、[サブスクリプションとライセンス] ページから検出することもできます。
+NetApp Consoleから容量情報とライセンス情報を直接表示できます。
 
-.必要なコンソールロール:
-ストレージ管理者またはストレージ閲覧者。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["NetApp Consoleのアクセス ロールについて学習します。"^]
+
+
+== 容量情報を表示
+
+*システム* ページからオンプレミスのONTAPクラスターを選択すると、*システムの詳細* ページに、合計容量、使用容量、使用可能な容量など、クラスターの容量情報が表示されます。
+
+
+
+== ライセンスと契約の詳細を表示する
+
+*サブスクリプションとライセンス* ページから、オンプレミスの各ONTAPクラスターの契約の詳細を表示できます。
 
 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["コンソールからオンプレミスのONTAPクラスタのライセンスを管理する方法の詳細"^]
