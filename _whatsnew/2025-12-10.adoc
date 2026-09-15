@@ -4,6 +4,7 @@
 
 
 
+[[usability-enhancements-when-viewing-ontap-systems-from-netapp-console-standard-mode-only]]
 === NetApp ConsoleからONTAPシステムを表示する際の使いやすさの向上 (標準モードのみ)
 
 NetApp Consoleの *システム* ページでは、ボリュームとクラスタを管理する際の明確さと使いやすさが向上しました。これらの更新により、新しいONTAPバージョンの System Manager とのエクスペリエンスがより密接になり、ナビゲーションが簡素化されます。

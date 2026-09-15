@@ -4,6 +4,7 @@
 
 
 
+[[create-flexgroup-volumes]]
 === FlexGroupボリュームを作成する
 
 コネクタを使用してクラスターを管理している場合は、 BlueXP API を使用してFlexGroupボリュームを作成できるようになりました。

@@ -18,6 +18,7 @@ NetApp Digital Advisor を使用すると、 ONTAPクラスタの運用、セキ
 
 
 
+[[features]]
 == 機能
 
 Digital Advisorを使用すると、ストレージ システムの全体的なステータス、システムの健全性に関する概要情報、インベントリ、計画、アップグレード、貴重な洞察をウォッチリスト レベルで表示できます。
@@ -32,12 +33,14 @@ Digital Advisorを使用すると、ストレージ システムの全体的な�
 
 
 
+[[supported-ontap-systems]]
 == サポートされているONTAPシステム
 
 Digital Advisor は、 NetAppサポート サイト (NSS) アカウントに関連付けられているすべてのオンプレミスONTAPシステムとCloud Volumes ONTAPシステムに関する情報を提供します。
 
 
 
+[[more-information]]
 == 詳細情報
 
 https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["Digital Advisorのドキュメント"^]

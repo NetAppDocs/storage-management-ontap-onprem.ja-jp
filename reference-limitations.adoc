@@ -18,6 +18,7 @@ summary: 今回のリリースでサポートされていない、または今�
 
 
 
+[[limitations-related-to-asa-r2-systems]]
 == ASA r2 システムに関連する制限
 
 NetApp ASA r2 システムを検出すると、System Manager に移動します。
@@ -28,12 +29,14 @@ https://docs.netapp.com/us-en/asa-r2/index.html["ASA r2システムの詳細"^]
 
 
 
+[[unsupported-clusters]]
 == サポートされていないクラスター
 
 SAML 認証が設定されているオンプレミスのONTAPクラスターは、コンソールではサポートされません。
 
 
 
+[[system-manager-limitations]]
 == システムマネージャの制限
 
 次の System Manager 機能はコンソールからはサポートされません。

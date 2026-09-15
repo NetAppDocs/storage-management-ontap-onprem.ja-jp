@@ -27,6 +27,7 @@ image:screenshot-connector-we.png["コンソール エージェントでクラ�
 
 
 
+[[create-flexvol-volumes-from-the-netapp-console]]
 == NetApp ConsoleからFlexVolボリュームを作成する
 
 コンソール エージェントを使用してオンプレミスのONTAPクラスタをコンソールに追加した後、コンソールから直接FlexVolボリュームをプロビジョニングおよび管理できます。
@@ -80,6 +81,7 @@ image:screenshot-connector-we.png["コンソール エージェントでクラ�
 
 
 
+[[create-flexgroup-volumes-with-the-netapp-console-api]]
 == NetApp ConsoleAPIを使用してFlexGroupボリュームを作成する
 
 NetApp ConsoleAPI を使用してFlexGroupボリュームを作成できます。FlexGroupボリュームは、ハイパフォーマンスと自動負荷分散を実現するスケールアウト ボリュームです。
@@ -90,12 +92,14 @@ NetApp ConsoleAPI を使用してFlexGroupボリュームを作成できます�
 
 
 
+[[access-ontap-system-manager-from-netapp-console]]
 == NetApp ConsoleからONTAP System Managerにアクセスする
 
 コンソール内から直接ONTAP System Manager インターフェイスにアクセスできます。
 
 
 
+[[features]]
 === 機能
 
 コンソールからONTAP System Manager にアクセスすると、追加の管理機能にアクセスできます。
@@ -124,6 +128,7 @@ SAN イニシエーター グループと NFS クライアントを設定しま�
 
 
 
+[[supported-configurations]]
 === サポートされている構成
 
 System Manager による高度な管理は、9.10.0 以降を実行しているオンプレミスのONTAPクラスターでサポートされます。
@@ -132,6 +137,7 @@ System Manager の統合は、GovCloud リージョンまたはアウトバウ�
 
 
 
+[[limitations]]
 === 制限事項
 
 コンソール経由でONTAP System Manager にアクセスする場合、オンプレミスのONTAPクラスターではいくつかの System Manager 機能がサポートされません。
@@ -140,6 +146,7 @@ link:reference-limitations.html["制限事項のリストを確認する"] 。
 
 
 
+[[access-ontap-system-manager-from-netapp-console]]
 === NetApp ConsoleからONTAP System Managerにアクセスする
 
 システムのシステム マネージャーを開きます。
@@ -154,6 +161,7 @@ link:reference-limitations.html["制限事項のリストを確認する"] 。
 
 
 
+[[get-help-with-system-manager]]
 === システムマネージャーのヘルプを取得する
 
 ONTAPでSystem Managerを使用する際にヘルプが必要な場合は、以下を参照してください。 https://docs.netapp.com/us-en/ontap/index.html["ONTAPのドキュメント"^]ステップバイステップの手順についてはこちらをご覧ください。役立つかもしれないリンクをいくつか紹介します。
@@ -165,6 +173,7 @@ ONTAPでSystem Managerを使用する際にヘルプが必要な場合は、以�
 
 
 
+[[enable-netapp-data-services]]
 == NetAppデータサービスを有効にする
 
 システム上でNetAppデータ サービスを有効にして、データの複製、データのバックアップ、データの階層化などを行います。

@@ -4,6 +4,7 @@
 
 
 
+[[support-for-asa-r2-systems]]
 === ASA r2 システムのサポート
 
 BlueXP を標準モードまたは制限モードで使用する場合、 BlueXPでNetApp ASA r2 システムを検出できるようになりました。  NetApp ASA r2 システムを検出し、作業環境を開くと、System Manager に直接移動します。
